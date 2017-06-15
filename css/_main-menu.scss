@@ -63,6 +63,8 @@
                       }
                   }
                   &:hover {
+                    color: $main-menu-text-hover;
+                    text-decoration: none;
                       li.parent_menu {
                           & > .children_menu {
                             &:hover {
