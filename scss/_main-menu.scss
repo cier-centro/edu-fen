@@ -42,7 +42,8 @@
 
                                 &:hover {
                                     background: $main-menu-item-hover-bg !important;
-                                    color: white !important;
+                                    color: $main-menu-text-hover !important;
+                                    text-decoration: none;
                                     padding: 18px 15px!important;
                                     display: block;
                                     font-weight: 600;
@@ -73,6 +74,7 @@
                       li.parent_menu {
                           & > .children_menu {
                             &:hover {
+                              color: $main-menu-text-hover;
                               text-decoration: none;
                               background-color: $main-menu-parent-hover-bg;
                               height:auto;

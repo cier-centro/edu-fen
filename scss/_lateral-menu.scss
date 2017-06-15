@@ -1,0 +1,27 @@
+/**
+ * Lateral Menu Styles
+ * --------------------------------------------------
+ */
+
+ .#{$site-name} {
+   .main-lateral-panel{
+     padding-right: 0px;
+     padding-top: 10px;
+     .pane-content{
+       ul{
+         background-color: #868686;
+         border-radius: 10px 0px 0px 10px;
+         & > li{
+           width: 100%;
+           &:hover{
+             background-color: #3c3c3a;
+             text-decoration: none;
+           }
+           & > a{
+             padding: 10px 0px !important;
+           }
+         }
+       }
+     }
+   }
+ }

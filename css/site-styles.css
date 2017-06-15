@@ -630,7 +630,8 @@ h1.logo {
         padding: 15px; }
         .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
           background: #000a34 !important;
-          color: white !important;
+          color: #cc8e55 !important;
+          text-decoration: none;
           padding: 18px 15px !important;
           display: block;
           font-weight: 600;
@@ -651,6 +652,7 @@ h1.logo {
     color: #cc8e55;
     text-decoration: none; }
     .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
+      color: #cc8e55;
       text-decoration: none;
       background-color: #0b204e;
       height: auto; }
@@ -1055,5 +1057,23 @@ div .tab-pane.fade {
   border-radius: 10px; }
 .site-fen .panel-group .panel + .panel {
   margin-top: 0px; }
+
+/**
+ * Lateral Menu Styles
+ * --------------------------------------------------
+ */
+.site-fen .main-lateral-panel {
+  padding-right: 0px;
+  padding-top: 10px; }
+  .site-fen .main-lateral-panel .pane-content ul {
+    background-color: #868686;
+    border-radius: 10px 0px 0px 10px; }
+    .site-fen .main-lateral-panel .pane-content ul > li {
+      width: 100%; }
+      .site-fen .main-lateral-panel .pane-content ul > li:hover {
+        background-color: #3c3c3a;
+        text-decoration: none; }
+      .site-fen .main-lateral-panel .pane-content ul > li > a {
+        padding: 10px 0px !important; }
 
 /*# sourceMappingURL=site-styles.css.map */
