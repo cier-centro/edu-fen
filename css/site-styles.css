@@ -547,21 +547,21 @@ h1.logo {
  * Common Elements Styles
  * --------------------------------------------------
  */
-.site-FEN .main_container {
+.site-fen .main_container {
   background-color: #01072b; }
-.site-FEN .content p a {
+.site-fen .content p a {
   text-decoration: underline; }
-.site-FEN .section_content .breadcrumb {
+.site-fen .section_content .breadcrumb {
   margin-bottom: 0px;
   height: 40px; }
-.site-FEN .section_content p {
+.site-fen .section_content p {
   margin-top: 10px !important;
   color: #666666 !important; }
 @media (min-width: 1100px) {
-  .site-FEN .main_container .section_content {
+  .site-fen .main_container .section_content {
     width: 1024px !important; } }
 @media (min-width: 768px) {
-  .site-FEN .content .modal-dialog {
+  .site-fen .content .modal-dialog {
     width: 600px;
     margin: 15% auto; } }
 
@@ -569,58 +569,58 @@ h1.logo {
  * Headings Styles
  * --------------------------------------------------
  */
-.content-header-styles, .site-FEN .content h1, .site-FEN .content h2, .site-FEN .content h3, .site-FEN .content h4 {
+.content-header-styles, .site-fen .content h1, .site-fen .content h2, .site-fen .content h3, .site-fen .content h4 {
   font-weight: normal;
   color: #1F2B49;
   margin-bottom: 0px !important; }
 
-.site-FEN .content h1 {
+.site-fen .content h1 {
   margin-top: 30px;
   font-size: 30px;
   padding-left: 10px; }
-.site-FEN .content h2 {
+.site-fen .content h2 {
   font-size: 20px;
   color: #502280;
   margin-top: 25px;
   font-weight: 600; }
-.site-FEN .content h3 {
+.site-fen .content h3 {
   font-size: 16px;
   color: #502280;
   font-weight: 600;
   margin-top: 20px;
   display: inline-block;
   padding-right: 10px; }
-.site-FEN .content h4 {
+.site-fen .content h4 {
   color: #007C9F;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px; }
-.site-FEN h2.title {
+.site-fen h2.title {
   display: none; }
 
 /**
  * Main Menu Styles
  * --------------------------------------------------
  */
-.site-FEN #microsite_panel .slide .pane-content > .menu {
+.site-fen #microsite_panel .slide .pane-content > .menu {
   background-color: #F26E01 !important; }
-  .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
+  .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding: 17px 5px !important;
     font-size: 15px !important; }
-  .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
+  .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
     top: 95%;
     height: 0px;
     background: transparent;
     z-index: 100; }
-    .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
+    .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
       display: block; }
-      .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
+      .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
         border-top: none; }
-      .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
+      .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
         border-bottom: none; }
-      .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
+      .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
         background-color: #FFAD01 !important;
         border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
         color: white !important;
@@ -628,7 +628,7 @@ h1.logo {
         font-size: 14px !important;
         height: auto;
         padding: 15px; }
-        .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
+        .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
           background: #FE8101 !important;
           color: white !important;
           padding: 18px 15px !important;
@@ -639,54 +639,54 @@ h1.logo {
           -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
           transition: all 0.2s ease; }
-  .site-FEN #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
+  .site-fen #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
     background-color: #f65600; }
-  .site-FEN #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
+  .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
     height: auto; }
-  .site-FEN #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
+  .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
     height: auto; }
 @media (min-width: 768px) {
-  .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu {
+  .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 20%; } }
 @media (max-width: 767px) {
-  .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu {
+  .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; }
-    .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-FEN #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
+    .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
       padding: 10px 15px !important; } }
 
 /**
  * Slider Styles
  * --------------------------------------------------
  */
-.site-FEN #FEN_home_slider {
+.site-fen #fen_home_slider {
   overflow: hidden;
   height: 100%; }
-  .site-FEN #FEN_home_slider .views-slideshow-controls-text-pause {
+  .site-fen #fen_home_slider .views-slideshow-controls-text-pause {
     display: none; }
-  .site-FEN #FEN_home_slider .views_slideshow_controls_text_next {
+  .site-fen #fen_home_slider .views_slideshow_controls_text_next {
     float: right; }
-    .site-FEN #FEN_home_slider .views_slideshow_controls_text_next a {
+    .site-fen #fen_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
       background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -90px -325px; }
-  .site-FEN #FEN_home_slider .views-slideshow-controls-text-previous a {
+  .site-fen #fen_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
     background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -16px -325px; }
-  .site-FEN #FEN_home_slider .views_slideshow_slide, .site-FEN #FEN_home_slider .views_slideshow_slide img {
+  .site-fen #fen_home_slider .views_slideshow_slide, .site-fen #fen_home_slider .views_slideshow_slide img {
     width: 100% !important; }
-  .site-FEN #FEN_home_slider .views_slideshow_slide label {
+  .site-fen #fen_home_slider .views_slideshow_slide label {
     color: white;
     font-size: 36px; }
-  .site-FEN #FEN_home_slider .views_slideshow_slide .views-field-body .field-content p {
+  .site-fen #fen_home_slider .views_slideshow_slide .views-field-body .field-content p {
     color: white !important;
     background-color: rgba(255, 255, 255, 0) !important; }
-  .site-FEN #FEN_home_slider .views_slideshow_slide .field-content p {
+  .site-fen #fen_home_slider .views_slideshow_slide .field-content p {
     font-size: 13px;
     margin: 0 25% 20px 0 !important; }
-  .site-FEN #FEN_home_slider .views_slideshow_slide > div {
+  .site-fen #fen_home_slider .views_slideshow_slide > div {
     position: relative; }
-    .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-body {
+    .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body {
       position: absolute;
       top: 20%;
       width: 40%;
@@ -694,32 +694,32 @@ h1.logo {
       background-color: transparent;
       padding: 30px 0 0;
       color: white; }
-      .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-body h4 {
+      .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body h4 {
         color: white;
         text-transform: none;
         font-weight: 500;
         font-size: 18px; }
-      .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-body p {
+      .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body p {
         color: white !important; }
-    .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-php {
+    .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-php {
       position: absolute;
       bottom: 15%;
       left: 10%; }
-    .site-FEN #FEN_home_slider .views_slideshow_slide > div .btn-info {
+    .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info {
       color: white;
       border: 2px solid white; }
-      .site-FEN #FEN_home_slider .views_slideshow_slide > div .btn-info:hover {
+      .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info:hover {
         color: #5b5b5b !important;
         border: 2px solid #5b5b5b !important; }
-        .site-FEN #FEN_home_slider .views_slideshow_slide > div .btn-info:hover span {
+        .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info:hover span {
           background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -105px -200px !important; }
-      .site-FEN #FEN_home_slider .views_slideshow_slide > div .btn-info span {
+      .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info span {
         height: 27px;
         width: 27px;
         margin-left: 15px;
         float: right;
         background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -174px -25px; }
-  .site-FEN #FEN_home_slider .views-more-link {
+  .site-fen #fen_home_slider .views-more-link {
     display: block;
     background: transparent;
     color: white;
@@ -727,150 +727,150 @@ h1.logo {
     padding: 4px 20px;
     position: absolute;
     border: 1px solid white; }
-  .site-FEN #FEN_home_slider .views-field-title {
+  .site-fen #fen_home_slider .views-field-title {
     position: absolute;
     top: 15%;
     left: 10%; }
-    .site-FEN #FEN_home_slider .views-field-title h1 {
+    .site-fen #fen_home_slider .views-field-title h1 {
       margin: 0;
       padding: 0; }
-      .site-FEN #FEN_home_slider .views-field-title h1 * {
+      .site-fen #fen_home_slider .views-field-title h1 * {
         color: white;
         font-weight: 600; }
-  .site-FEN #FEN_home_slider .skin-default {
+  .site-fen #fen_home_slider .skin-default {
     position: relative; }
-  .site-FEN #FEN_home_slider .views-slideshow-controls-top {
+  .site-fen #fen_home_slider .views-slideshow-controls-top {
     position: absolute;
     top: 43%;
     width: 100%;
     z-index: 10;
     padding: 0 15px; }
   @media (max-width: 767px) {
-    .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-php, .site-FEN #FEN_home_slider .views_slideshow_slide > div .views-field-body {
+    .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-php, .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body {
       display: none; } }
 
 /**
  * Tables Styles
  * --------------------------------------------------
  */
-.th-text-styles, .site-FEN .content table thead th, .site-FEN .content table thead th a, .site-FEN .content table thead th a:hover, .site-FEN .content table thead th:hover {
+.th-text-styles, .site-fen .content table thead th, .site-fen .content table thead th a, .site-fen .content table thead th a:hover, .site-fen .content table thead th:hover {
   text-decoration: none;
   color: white;
   text-shadow: none;
   font-size: 15px;
   font-weight: 600; }
 
-.site-FEN .content .table-responsive {
+.site-fen .content .table-responsive {
   width: 90%;
   margin: auto;
   margin-bottom: 15px;
   border: none; }
-  .site-FEN .content .table-responsive tbody tr {
+  .site-fen .content .table-responsive tbody tr {
     border-bottom: none; }
-    .site-FEN .content .table-responsive tbody tr:nth-child(odd) {
+    .site-fen .content .table-responsive tbody tr:nth-child(odd) {
       background: #e6e6e6; }
-    .site-FEN .content .table-responsive tbody tr:nth-child(even) {
+    .site-fen .content .table-responsive tbody tr:nth-child(even) {
       background: white; }
-    .site-FEN .content .table-responsive tbody tr:hover {
+    .site-fen .content .table-responsive tbody tr:hover {
       background: #ffab00;
       -webkit-transition: all 150ms ease-out;
       -moz-transition: all 150ms ease-out;
       -ms-transition: all 150ms ease-out;
       -o-transition: all 150ms ease-out;
       transition: all 150ms ease-out; }
-      .site-FEN .content .table-responsive tbody tr:hover * {
+      .site-fen .content .table-responsive tbody tr:hover * {
         color: black !important; }
-      .site-FEN .content .table-responsive tbody tr:hover th, .site-FEN .content .table-responsive tbody tr:hover td {
+      .site-fen .content .table-responsive tbody tr:hover th, .site-fen .content .table-responsive tbody tr:hover td {
         color: white;
         -webkit-transition: all 150ms ease-out;
         -moz-transition: all 150ms ease-out;
         -ms-transition: all 150ms ease-out;
         -o-transition: all 150ms ease-out;
         transition: all 150ms ease-out; }
-    .site-FEN .content .table-responsive tbody tr td:last-child {
+    .site-fen .content .table-responsive tbody tr td:last-child {
       min-width: 100px; }
-  .site-FEN .content .table-responsive tbody td {
+  .site-fen .content .table-responsive tbody td {
     padding: 2px 3px 2px 3px; }
-  .site-FEN .content .table-responsive td > a {
+  .site-fen .content .table-responsive td > a {
     color: #243268;
     display: inline-block; }
-  .site-FEN .content .table-responsive table tr th {
+  .site-fen .content .table-responsive table tr th {
     text-shadow: none; }
-  .site-FEN .content .table-responsive tr, .site-FEN .content .table-responsive tr.even {
+  .site-fen .content .table-responsive tr, .site-fen .content .table-responsive tr.even {
     border-bottom: 0px;
     border-top: 0px; }
-  .site-FEN .content .table-responsive tfoot tr td:last-child {
+  .site-fen .content .table-responsive tfoot tr td:last-child {
     border-right: none; }
-  .site-FEN .content .table-responsive tfoot td {
+  .site-fen .content .table-responsive tfoot td {
     padding: 3px 3px 3px 3px; }
-.site-FEN .content table > thead {
+.site-fen .content table > thead {
   -webkit-border-radius: 5px 5px 0px 0px;
   -moz-border-radius: 5px 5px 0px 0px;
   -ms-border-radius: 5px 5px 0px 0px;
   border-radius: 5px 5px 0px 0px; }
-  .site-FEN .content table > thead > tr > th {
+  .site-fen .content table > thead > tr > th {
     background: #01072b;
     padding: 15px; }
-    .site-FEN .content table > thead > tr > th:first-child {
+    .site-fen .content table > thead > tr > th:first-child {
       color: rgba(255, 255, 255, 0);
       border-top-left-radius: 15px;
       border: none; }
-    .site-FEN .content table > thead > tr > th:last-child {
+    .site-fen .content table > thead > tr > th:last-child {
       border-top-right-radius: 15px;
       border: none; }
-.site-FEN .content .table-bordered {
+.site-fen .content .table-bordered {
   border: none; }
 
 /**
  * Buttons Styles
  * --------------------------------------------------
  */
-.site-FEN .btn-info {
+.site-fen .btn-info {
   background: transparent;
   color: #5b5b5b;
   font-weight: 600;
   border: 2px solid #5b5b5b; }
-  .site-FEN .btn-info:hover {
+  .site-fen .btn-info:hover {
     background: #e6e6e6 !important; }
-.site-FEN .main-lateral-panel .views-row {
+.site-fen .main-lateral-panel .views-row {
   display: flex;
   align-items: center;
   border: 2px solid #a0a0a0 !important;
   border-radius: 10px;
   margin-top: 25px; }
-  .site-FEN .main-lateral-panel .views-row:hover {
+  .site-fen .main-lateral-panel .views-row:hover {
     background: #e6e6e6 !important; }
-    .site-FEN .main-lateral-panel .views-row:hover .views-field-title span a {
+    .site-fen .main-lateral-panel .views-row:hover .views-field-title span a {
       text-decoration: underline; }
-  .site-FEN .main-lateral-panel .views-row > * {
+  .site-fen .main-lateral-panel .views-row > * {
     height: 100px; }
-  .site-FEN .main-lateral-panel .views-row .views-field-title {
+  .site-fen .main-lateral-panel .views-row .views-field-title {
     width: calc(100% - 80px); }
-    .site-FEN .main-lateral-panel .views-row .views-field-title span a {
+    .site-fen .main-lateral-panel .views-row .views-field-title span a {
       background: transparent;
       color: #a0a0a0;
       font-weight: 600;
       padding: 0 15px 0 35px;
       text-align: left;
       font-size: 16px; }
-    .site-FEN .main-lateral-panel .views-row .views-field-title span, .site-FEN .main-lateral-panel .views-row .views-field-title a {
+    .site-fen .main-lateral-panel .views-row .views-field-title span, .site-fen .main-lateral-panel .views-row .views-field-title a {
       width: 100%;
       height: 100%;
       display: flex;
       align-items: center; }
-  .site-FEN .main-lateral-panel .views-row .views-field-php {
+  .site-fen .main-lateral-panel .views-row .views-field-php {
     width: 70px; }
-    .site-FEN .main-lateral-panel .views-row .views-field-php > span, .site-FEN .main-lateral-panel .views-row .views-field-php > span > a {
+    .site-fen .main-lateral-panel .views-row .views-field-php > span, .site-fen .main-lateral-panel .views-row .views-field-php > span > a {
       display: flex;
       align-items: center;
       height: 100%;
       width: 100%; }
-    .site-FEN .main-lateral-panel .views-row .views-field-php .button-icon {
+    .site-fen .main-lateral-panel .views-row .views-field-php .button-icon {
       display: block;
       height: 80px;
       background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat;
       width: 100%; }
-  .site-FEN .main-lateral-panel .views-row:first-child .views-field-title {
+  .site-fen .main-lateral-panel .views-row:first-child .views-field-title {
     background: #b31b58;
     background: -moz-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
     background: -webkit-gradient(left top, right top, color-stop(20%, #b31b58), color-stop(20%, rgba(179, 27, 88, 0)));
@@ -879,9 +879,9 @@ h1.logo {
     background: -ms-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
     background: linear-gradient(to right, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 ); }
-  .site-FEN .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
+  .site-fen .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
     background-position: -2px 0px; }
-  .site-FEN .main-lateral-panel .views-row:nth-child(2) .views-field-title {
+  .site-fen .main-lateral-panel .views-row:nth-child(2) .views-field-title {
     background: #9cc34d;
     background: -moz-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
     background: -webkit-gradient(left top, right top, color-stop(20%, #9cc34d), color-stop(20%, rgba(156, 195, 77, 0)));
@@ -890,9 +890,9 @@ h1.logo {
     background: -ms-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
     background: linear-gradient(to right, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 ); }
-  .site-FEN .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
+  .site-fen .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
     background-position: -3px -90px; }
-  .site-FEN .main-lateral-panel .views-row:nth-child(3) .views-field-title {
+  .site-fen .main-lateral-panel .views-row:nth-child(3) .views-field-title {
     background: #66a7dd;
     background: -moz-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
     background: -webkit-gradient(left top, right top, color-stop(20%, #66a7dd), color-stop(20%, rgba(102, 167, 221, 0)));
@@ -901,45 +901,45 @@ h1.logo {
     background: -ms-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
     background: linear-gradient(to right, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 ); }
-  .site-FEN .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
+  .site-fen .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
     background-position: -4px -175px; }
 
 /**
  * Base Styles
  * --------------------------------------------------
  */
-.site-FEN div#microsite_panel {
+.site-fen div#microsite_panel {
   background-color: #ebf9f9; }
 
-.site-FEN ul.nav.nav-tabs a {
+.site-fen ul.nav.nav-tabs a {
   background-color: #f26e01;
   color: white; }
 
-.site-FEN .tab-content {
+.site-fen .tab-content {
   background-color: white; }
 
-.site-FEN .modal .modal-content {
+.site-fen .modal .modal-content {
   border-radius: 16px; }
 
-.site-FEN .modal .modal-header {
+.site-fen .modal .modal-header {
   background: #01072b;
   border-radius: 15px 15px 0 0;
   border: none; }
 
-.site-FEN .modal .modal-header h3 {
+.site-fen .modal .modal-header h3 {
   color: white;
   font-size: 22px;
   padding: 0 15px;
   margin: 0; }
 
-.site-FEN ul.nav.nav-tabs a[aria-expanded="true"] {
+.site-fen ul.nav.nav-tabs a[aria-expanded="true"] {
   background-color: white;
   color: black; }
 
 div .tab-pane.fade {
   padding: 10px; }
 
-.site-FEN .modal .modal-header .close {
+.site-fen .modal .modal-header .close {
   background: rgba(255, 255, 255, 0.8);
   height: 25px;
   width: 25px;
@@ -950,62 +950,62 @@ div .tab-pane.fade {
   font-size: 30px;
   padding-bottom: 6px; }
 
-.site-FEN .modal .modal-body {
+.site-fen .modal .modal-body {
   background: #f65600; }
 
-.site-FEN .modal .modal-body p,
-.site-FEN .modal .modal-body h4 {
+.site-fen .modal .modal-body p,
+.site-fen .modal .modal-body h4 {
   color: white !important; }
 
-.site-FEN .modal .modal-body h4 {
+.site-fen .modal .modal-body h4 {
   text-transform: none;
   font-size: 18px;
   font-weight: 600;
   margin: 20px 15px 15px 15px; }
 
-.site-FEN .modal .modal-body p {
+.site-fen .modal .modal-body p {
   border-top: 1px solid white;
   margin: -1px 15px !important;
   padding: 15px 0; }
 
-.site-FEN .modal .modal-body p:not(:last-child) {
+.site-fen .modal .modal-body p:not(:last-child) {
   border-bottom: 1px solid white; }
 
-.site-FEN .modal .modal-footer > * {
+.site-fen .modal .modal-footer > * {
   width: 25%;
   height: 50px; }
 
-.site-FEN .modal .modal-footer .bienestar-laboral-logo {
+.site-fen .modal .modal-footer .bienestar-laboral-logo {
   float: left;
   background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png") no-repeat center/contain; }
 
-.site-FEN .modal .modal-footer .new-country-logo,
-.site-FEN .modal .modal-footer .mineducacion-logo {
+.site-fen .modal .modal-footer .new-country-logo,
+.site-fen .modal .modal-footer .mineducacion-logo {
   float: right; }
 
-.site-FEN .modal .modal-footer .new-country-logo {
+.site-fen .modal .modal-footer .new-country-logo {
   background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png") no-repeat center/contain; }
 
-.site-FEN .modal .modal-footer .mineducacion-logo {
+.site-fen .modal .modal-footer .mineducacion-logo {
   background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png") no-repeat center/contain; }
 
 @media (min-width: 768px) {
-  .site-FEN .modal .modal-body {
+  .site-fen .modal .modal-body {
     background: #f65600 url("http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png") no-repeat 101% -1px/50% auto !important; } }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .site-FEN #banner .view .view-content {
+  .site-fen #banner .view .view-content {
     margin-bottom: 0 !important; } }
 @media (max-width: 767px) {
-  .site-FEN .section_container.no_left_sidebar .section_content {
+  .site-fen .section_container.no_left_sidebar .section_content {
     width: 100% !important; }
 
-  .site-FEN .modal .modal-footer > * {
+  .site-fen .modal .modal-footer > * {
     width: 33% !important; } }
 @media (min-width: 992px) and (max-width: 1024px) {
-  .site-FEN #microsite_panel {
+  .site-fen #microsite_panel {
     overflow: hidden; }
 
-  .site-FEN .main-lateral-panel .views-row .views-field-title {
+  .site-fen .main-lateral-panel .views-row .views-field-title {
     width: calc(100% - 70px) !important; } }
 .pane-content .view-content .field-content ul {
   padding-left: 40px !important; }
@@ -1021,9 +1021,9 @@ div .tab-pane.fade {
 * Accordion Styles
 * --------------------------------------------------
 */
-.site-FEN .panel-default > .panel-heading {
+.site-fen .panel-default > .panel-heading {
   padding: 0px !important; }
-  .site-FEN .panel-default > .panel-heading > a {
+  .site-fen .panel-default > .panel-heading > a {
     text-align: initial;
     text-decoration: none;
     padding: 10px 15px;
@@ -1034,15 +1034,15 @@ div .tab-pane.fade {
     background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
     background-position: 100% -195px;
     border-radius: 8px 8px 5px 5px; }
-    .site-FEN .panel-default > .panel-heading > a[aria-expanded="true"] {
+    .site-fen .panel-default > .panel-heading > a[aria-expanded="true"] {
       background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
       background-position: 100% -110px !important; }
-    .site-FEN .panel-default > .panel-heading > a > h4 {
+    .site-fen .panel-default > .panel-heading > a > h4 {
       color: white;
       margin: 0px !important; }
-.site-FEN .panel .panel-default {
+.site-fen .panel .panel-default {
   border-radius: 10px; }
-.site-FEN .panel-group .panel + .panel {
+.site-fen .panel-group .panel + .panel {
   margin-top: 0px; }
 
 /*# sourceMappingURL=site-styles.css.map */
