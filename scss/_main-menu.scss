@@ -54,10 +54,15 @@
                       }
                       &.expanded {
                           & > a {
+                            color: $main-menu-text-hover;
+                            text-decoration: none;
+                            background-color: $main-menu-parent-hover-bg;
                               &:hover {
-                                  color: $main-menu-text-hover;
-                                  text-decoration: none;
-                                  background-color: $main-menu-parent-hover-bg;
+                                color: $main-menu-text-hover;
+                                text-decoration: none;
+                                  //color: $main-menu-text-hover;
+                                  //text-decoration: none;
+                                  //background-color: $main-menu-parent-hover-bg;
                               }
                           }
                       }
@@ -68,6 +73,8 @@
                       li.parent_menu {
                           & > .children_menu {
                             &:hover {
+                              text-decoration: none;
+                              background-color: $main-menu-parent-hover-bg;
                               height:auto;
                             }
                           }
