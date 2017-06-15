@@ -41,6 +41,9 @@
                             @include transition-properties(all 150ms ease-out);
                         }
                     }
+                    th,td{
+                      color: black;
+                    }
                     td {
                         &:last-child {
                             min-width:100px;

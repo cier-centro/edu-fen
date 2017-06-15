@@ -818,6 +818,8 @@ h1.logo {
         -ms-transition: all 150ms ease-out;
         -o-transition: all 150ms ease-out;
         transition: all 150ms ease-out; }
+    .site-fen .content .table-responsive tbody tr th, .site-fen .content .table-responsive tbody tr td {
+      color: black; }
     .site-fen .content .table-responsive tbody tr td:last-child {
       min-width: 100px; }
   .site-fen .content .table-responsive tbody td {
