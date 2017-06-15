@@ -140,6 +140,11 @@
                   .views-field-php, .views-field-body {
                       display: none;
                   }
+                  .views-field-title {
+                      bottom: 0;
+                      height: 60px;
+                      padding: 0 65px;
+                  }
               }
           }
     }

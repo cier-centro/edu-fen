@@ -781,7 +781,11 @@ h1.logo {
     padding: 0 15px; }
   @media (max-width: 767px) {
     .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-php, .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body {
-      display: none; } }
+      display: none; }
+    .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-title {
+      bottom: 0;
+      height: 60px;
+      padding: 0 65px; } }
 
 /**
  * Tables Styles
