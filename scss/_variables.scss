@@ -9,15 +9,16 @@ $path-site:                        edu-fen;
 
  // Colors
  // -------------------------------
-$site-bg:                         #01072b !default;
-$content-bg:                      rgb(235,249,249) !default;
+$site-bg:                         #9CCDE8 !default;
+$site-bg-shadow:                  #5d90aa !default;
+$content-bg:                      white !default;
 $headers-default-text-color:      #1F2B49 !default;
 $h2-text-color:                   #502280 !default;
 $h4-text-color:                   #007C9F !default;
 $main-menu-bg:                    #2a569b !default;
 $main-menu-parent-hover-bg:       #0b204e !default;
 $main-menu-text-hover:            #cc8e55 !default;
-$main-menu-horizontal-separator:  rgba(0, 0, 0, 0.1) !default;
+$main-menu-horizontal-separator:  rgba(255, 255, 255, 0.3) !default;
 $main-menu-item-bg:               #0b204e !default;
 $main-menu-item-hover-bg:         #000a34 !default;
 $main-menu-item-separator:        rgba(153, 153, 153, 0.4) !default;

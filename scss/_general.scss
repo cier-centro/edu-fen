@@ -1,10 +1,10 @@
 /**
- * Common Elements Styles
+ * General Styles
  * --------------------------------------------------
  */
  .#{$site-name} {
      .main_container {
-         background-color: $site-bg;
+        @include main-background-properties($site-bg, $site-bg-shadow);
      }
      #microsite_panel {
          background-color: $content-bg;

@@ -544,13 +544,20 @@ h1.logo {
  * --------------------------------------------------
  */
 /**
- * Common Elements Styles
+ * General Styles
  * --------------------------------------------------
  */
 .site-fen .main_container {
-  background-color: #01072b; }
+  background: #9ccde8;
+  background: -moz-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #9ccde8), color-stop(50%, #5d90aa), color-stop(100%, #9ccde8));
+  background: -webkit-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
+  background: -o-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
+  background: -ms-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
+  background: linear-gradient(to right, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CCDE8', endColorstr='#9CCDE8', GradientType=1 ); }
 .site-fen #microsite_panel {
-  background-color: #ebf9f9; }
+  background-color: white; }
 .site-fen .content p a {
   text-decoration: underline; }
 .site-fen .section_content .breadcrumb {
@@ -624,8 +631,8 @@ h1.logo {
 .site-fen #microsite_panel .slide .pane-content > .menu {
   background-color: #2a569b !important; }
   .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 17px 5px !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 5px !important;
     font-size: 15px !important; }
   .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
     top: 95%;
@@ -691,7 +698,8 @@ h1.logo {
  */
 .site-fen #fen_home_slider {
   overflow: hidden;
-  height: 100%; }
+  height: 100%;
+  padding-top: 10px; }
   .site-fen #fen_home_slider .views-slideshow-controls-text-pause {
     display: none; }
   .site-fen #fen_home_slider .views_slideshow_controls_text_next {
@@ -955,7 +963,7 @@ h1.logo {
 .site-fen .modal .modal-content {
   border-radius: 16px; }
 .site-fen .modal .modal-header {
-  background: #01072b;
+  background: #9CCDE8;
   border-radius: 15px 15px 0 0;
   border: none; }
   .site-fen .modal .modal-header h3 {
@@ -1033,7 +1041,7 @@ h1.logo {
     display: block;
     text-align: initial;
     text-decoration: none;
-    background-color: #01072b !important;
+    background-color: #9CCDE8 !important;
     background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
     background-position: 100% -195px;
     border-radius: 8px 8px 5px 5px; }
