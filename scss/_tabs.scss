@@ -1,0 +1,26 @@
+/**
+ * Tabs Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+     ul.nav.nav-tabs {
+         a {
+             background-color: $main-menu-bg;
+             color: white;
+         }
+         li.active {
+             a {
+                 background-color: white;
+                 color: black;
+             }
+         }
+     }
+    .tab-content {
+        background-color: white;
+    }
+    div {
+        .tab-pane.fade {
+            padding: 10px;
+        }
+    }
+}

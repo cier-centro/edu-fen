@@ -20,6 +20,7 @@
             border: 2px solid $main-lateral-button-border !important;
             border-radius: 10px;
             margin-top: 25px;
+            overflow: hidden;
 
             &:hover {
                 background: $table-odd-row-bg !important;
@@ -104,5 +105,11 @@
                 }
             }
         }
-     }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+            .views-row .views-field-title {
+               width: calc(100% - 70px) !important;
+            }
+        }
+    }
 }

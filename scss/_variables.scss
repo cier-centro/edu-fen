@@ -8,6 +8,8 @@ $site-slider:                      fen_home_slider;
 
  // Colors
  // -------------------------------
+$site-bg:                         #01072b !default;
+$content-bg:                      rgb(235,249,249) !default;
 $headers-default-text-color:      #1F2B49 !default;
 $h2-text-color:                   #502280 !default;
 $h4-text-color:                   #007C9F !default;
@@ -27,6 +29,7 @@ $main-lateral-button-border:      #a0a0a0 !default;
 $main-lateral-first-btn-bg:       #b31b58 !default;
 $main-lateral-second-btn-bg:      #9CC34D !default;
 $main-lateral-third-btn-bg:       #66A7DD !default;
+$paragraph-text-color:            #666666 !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;
