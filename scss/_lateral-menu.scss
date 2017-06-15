@@ -9,13 +9,13 @@
      padding-top: 10px;
      .pane-content{
        ul{
-         background-color: #868686;
+         background-color: $lateral-menu-bg !important;
          border-radius: 10px 0px 0px 10px;
          & > li{
            width: 100%;
            &:hover{
-             background-color: #3c3c3a;
-             text-decoration: none;
+             background-color: $lateral-menu-hover-bg;
+             text-decoration: none !important;
            }
            & > a{
              padding: 10px 0px !important;

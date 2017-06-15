@@ -55,27 +55,27 @@
                       }
                       &:hover{
                         color: $main-menu-text-hover;
-                        text-decoration: none;
+                        text-decoration: none !important;
                         background-color: $main-menu-parent-hover-bg;
                       }
                       &.expanded {
                           & > a {
                               &:hover {
-                                color: $main-menu-text-hover;
-                                text-decoration: none;
+                                color: $main-menu-text-hover !important;
+                                text-decoration: none !important;
                                   background-color: $main-menu-parent-hover-bg;
                               }
                           }
                       }
                   }
                   &:hover {
-                    color: $main-menu-text-hover;
-                    text-decoration: none;
+                    color: $main-menu-text-hover !important;
+                    text-decoration: none !important;
                       li.parent_menu {
                           & > .children_menu {
                             &:hover {
-                              color: $main-menu-text-hover;
-                              text-decoration: none;
+                              color: $main-menu-text-hover !important;
+                              text-decoration: none !important;
                               background-color: $main-menu-parent-hover-bg;
                               height:auto;
                             }
