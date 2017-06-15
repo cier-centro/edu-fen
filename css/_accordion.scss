@@ -1,0 +1,79 @@
+/**
+* Accordion Styles
+* --------------------------------------------------
+*/
+
+.#{$site-name} {
+
+
+.panel-default{
+  & > .panel-heading{
+    padding: 0px !important;
+    & > a{
+      text-align: initial;
+      text-decoration: none;
+      &[aria-expanded="true"]{
+        background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+        background-position: 100% -110px !important;
+      }
+      padding: 10px 15px;
+      display: block;
+      text-align: initial;
+      text-decoration: none;
+      background-color: rgb(1,7,43) !important;
+      background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+      background-position: 100% -195px;
+      border-radius: 8px 8px 5px 5px;
+
+      & > h4{
+        color: white;
+        margin: 0px !important;
+      }
+    }
+  }
+}
+.panel{
+  .panel-default{
+    border-radius: 10px;
+  }
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0px;
+}
+}
+
+/*
+.panel-default>.panel-heading > a > h4 {
+color: white;
+margin: 0px !important;
+}
+
+.panel-default>.panel-heading{
+padding: 0px !important;
+}
+
+.panel-default>.panel-heading > a {
+text-align: initial;
+text-decoration: none;
+}
+
+.panel-default>.panel-heading > a[aria-expanded="true"] {
+background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+background-position: 100% -110px !important;
+}
+
+.panel-default>.panel-heading > a {
+padding: 10px 15px;
+display: block;
+text-align: initial;
+text-decoration: none;
+background-color: rgb(1,7,43) !important;
+background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+background-position: 100% -195px;
+border-radius: 8px 8px 5px 5px;
+}
+
+.panel.panel-default {
+border-radius: 10px;
+}*/
