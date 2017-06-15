@@ -799,11 +799,11 @@ h1.logo {
   .site-fen .content .table-responsive tbody tr {
     border-bottom: none; }
     .site-fen .content .table-responsive tbody tr:nth-child(odd) {
-      background: #e6e6e6; }
+      background: #b8dcef; }
     .site-fen .content .table-responsive tbody tr:nth-child(even) {
-      background: white; }
+      background: #9fcfea; }
     .site-fen .content .table-responsive tbody tr:hover {
-      background: #ffab00;
+      background: #cc8e55;
       -webkit-transition: all 150ms ease-out;
       -moz-transition: all 150ms ease-out;
       -ms-transition: all 150ms ease-out;
@@ -840,7 +840,7 @@ h1.logo {
   -ms-border-radius: 5px 5px 0px 0px;
   border-radius: 5px 5px 0px 0px; }
   .site-fen .content table > thead > tr > th {
-    background: #01072b;
+    background: #0b204e;
     padding: 15px; }
     .site-fen .content table > thead > tr > th:first-child {
       color: rgba(255, 255, 255, 0);
@@ -862,7 +862,7 @@ h1.logo {
   font-weight: 600;
   border: 2px solid #5b5b5b; }
   .site-fen .btn-info:hover {
-    background: #e6e6e6 !important; }
+    background: #b8dcef !important; }
 .site-fen .main-lateral-panel .views-row {
   display: flex;
   align-items: center;
@@ -871,7 +871,7 @@ h1.logo {
   margin-top: 25px;
   overflow: hidden; }
   .site-fen .main-lateral-panel .views-row:hover {
-    background: #e6e6e6 !important; }
+    background: #b8dcef !important; }
     .site-fen .main-lateral-panel .views-row:hover .views-field-title span a {
       text-decoration: underline; }
   .site-fen .main-lateral-panel .views-row > * {
