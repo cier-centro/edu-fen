@@ -52,17 +52,17 @@
                           }
                       }
                       }
+                      &:hover{
+                        color: $main-menu-text-hover;
+                        text-decoration: none;
+                        background-color: $main-menu-parent-hover-bg;
+                      }
                       &.expanded {
                           & > a {
-                            color: $main-menu-text-hover;
-                            text-decoration: none;
-                            background-color: $main-menu-parent-hover-bg;
                               &:hover {
                                 color: $main-menu-text-hover;
                                 text-decoration: none;
-                                  //color: $main-menu-text-hover;
-                                  //text-decoration: none;
-                                  //background-color: $main-menu-parent-hover-bg;
+                                  background-color: $main-menu-parent-hover-bg;
                               }
                           }
                       }

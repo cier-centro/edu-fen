@@ -639,13 +639,14 @@ h1.logo {
           -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
           transition: all 0.2s ease; }
-  .site-fen #microsite_panel .slide .pane-content > .menu li.expanded > a {
+  .site-fen #microsite_panel .slide .pane-content > .menu li:hover {
     color: #cc8e55;
     text-decoration: none;
     background-color: #0b204e; }
-    .site-fen #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-      color: #cc8e55;
-      text-decoration: none; }
+  .site-fen #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
+    color: #cc8e55;
+    text-decoration: none;
+    background-color: #0b204e; }
   .site-fen #microsite_panel .slide .pane-content > .menu:hover {
     color: #cc8e55;
     text-decoration: none; }
