@@ -55,6 +55,8 @@
                       &.expanded {
                           & > a {
                               &:hover {
+                                  color: $main-menu-text-hover;
+                                  text-decoration: none;
                                   background-color: $main-menu-parent-hover-bg;
                               }
                           }

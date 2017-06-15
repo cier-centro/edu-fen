@@ -604,7 +604,7 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-fen #microsite_panel .slide .pane-content > .menu {
-  background-color: #F26E01 !important; }
+  background-color: #2a569b !important; }
   .site-fen #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding: 17px 5px !important;
@@ -640,7 +640,9 @@ h1.logo {
           -o-transition: all 0.2s ease;
           transition: all 0.2s ease; }
   .site-fen #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-    background-color: #f65600; }
+    color: #cc8e55;
+    text-decoration: none;
+    background-color: #0b204e; }
   .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
     height: auto; }
   .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
