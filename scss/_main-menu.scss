@@ -77,7 +77,7 @@
                               background-color: $main-menu-parent-hover-bg;
                               height:auto;
                             }
-                            a{
+                            & > a{
                               &:hover{
                                 color: $main-menu-text-hover !important;
                                 text-decoration: none !important;

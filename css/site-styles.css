@@ -600,23 +600,25 @@ h1.logo {
   margin-bottom: 0px !important; }
 
 .site-fen .content h1 {
+  color: #162a55;
   margin-top: 30px;
   font-size: 30px;
   padding-left: 10px; }
 .site-fen .content h2 {
   font-size: 20px;
-  color: #502280;
+  color: #162a55;
   margin-top: 25px;
   font-weight: 600; }
 .site-fen .content h3 {
   font-size: 16px;
-  color: #502280;
+  color: #162a55;
   font-weight: 600;
   margin-top: 20px;
   display: inline-block;
   padding-right: 10px; }
 .site-fen .content h4 {
-  color: #007C9F;
+  color: #162a55;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
@@ -679,7 +681,7 @@ h1.logo {
     .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
       background-color: #0b204e;
       height: auto; }
-    .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu a:hover {
+    .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
       color: #cc8e55 !important;
       text-decoration: none !important; }
     .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
