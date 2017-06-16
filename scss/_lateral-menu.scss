@@ -15,10 +15,13 @@
            width: 100%;
            &:hover{
              background-color: $lateral-menu-hover-bg;
-             text-decoration: none !important;
-           }
+             }
+
            & > a{
              padding: 10px 0px !important;
+             &:hover{
+               text-decoration: none !important;
+             }
            }
          }
        }

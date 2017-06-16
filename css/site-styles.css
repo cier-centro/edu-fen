@@ -677,10 +677,11 @@ h1.logo {
     color: #cc8e55 !important;
     text-decoration: none !important; }
     .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-      color: #cc8e55 !important;
-      text-decoration: none !important;
       background-color: #0b204e;
       height: auto; }
+    .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu a:hover {
+      color: #cc8e55 !important;
+      text-decoration: none !important; }
     .site-fen #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
       height: auto; }
 @media (min-width: 768px) {
@@ -1069,9 +1070,10 @@ h1.logo {
     .site-fen .main-lateral-panel .pane-content ul > li {
       width: 100%; }
       .site-fen .main-lateral-panel .pane-content ul > li:hover {
-        background-color: #3c3c3a;
-        text-decoration: none !important; }
+        background-color: #3c3c3a; }
       .site-fen .main-lateral-panel .pane-content ul > li > a {
         padding: 10px 0px !important; }
+        .site-fen .main-lateral-panel .pane-content ul > li > a:hover {
+          text-decoration: none !important; }
 
 /*# sourceMappingURL=site-styles.css.map */
