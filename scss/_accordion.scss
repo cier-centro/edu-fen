@@ -29,10 +29,10 @@
             }
        }
        &:nth-child(odd) > .panel-heading > a {
-            background-color: $accordion-odd-bg !important;
+            background-color: $accordion-odd-bg;
        }
        &:nth-child(even) > .panel-heading > a {
-            background-color: $accordion-even-bg !important;
+            background-color: $accordion-even-bg;
        }
     }
 

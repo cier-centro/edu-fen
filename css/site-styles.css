@@ -968,11 +968,14 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-fen .modal .modal-content {
-  border-radius: 16px; }
+  border-radius: 16px;
+  border: 3px solid #858585;
+  overflow: hidden; }
 .site-fen .modal .modal-header {
-  background: #9CCDE8;
+  background: white;
   border-radius: 15px 15px 0 0;
-  border: none; }
+  border: none;
+  padding: 15px 15px 0; }
   .site-fen .modal .modal-header h3 {
     color: white;
     font-size: 22px;
@@ -983,26 +986,30 @@ h1.logo {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    border: 3px solid #5b5b5b;
+    border: 3px solid #858585;
     line-height: 0;
-    color: #5b5b5b;
+    color: #858585;
     font-size: 30px;
-    padding-bottom: 6px; }
+    padding-bottom: 6px;
+    opacity: 1; }
+    .site-fen .modal .modal-header .close:hover {
+      opacity: 0.5; }
 .site-fen .modal .modal-body {
-  background: #0b204e; }
+  background: white;
+  padding: 0 15px 15px; }
   .site-fen .modal .modal-body h4 {
     text-transform: none;
     font-size: 18px;
     font-weight: 600;
-    margin: 20px 15px 15px 15px; }
+    margin: 0 15px 15px 15px;
+    color: #1A254E !important; }
   .site-fen .modal .modal-body p {
     border-top: 1px solid white;
     margin: -1px 15px !important;
-    padding: 15px 0; }
+    padding: 15px 0;
+    color: black !important; }
     .site-fen .modal .modal-body p:not(:last-child) {
       border-bottom: 1px solid white; }
-  .site-fen .modal .modal-body p, .site-fen .modal .modal-body h4 {
-    color: white !important; }
 .site-fen .modal .modal-footer > * {
   width: 25%;
   height: 50px; }
@@ -1015,9 +1022,6 @@ h1.logo {
   background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .new-country-logo, .site-fen .modal .modal-footer .mineducacion-logo {
   float: right; }
-@media (min-width: 768px) {
-  .site-fen .modal .modal-body {
-    background: #0b204e url("http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png") no-repeat 101% -1px/50% auto !important; } }
 @media (max-width: 767px) {
   .site-fen .modal .modal-footer > * {
     width: 33% !important; } }
@@ -1058,9 +1062,9 @@ h1.logo {
       margin: 0px !important;
       font-weight: 500; }
 .site-fen .panel-default:nth-child(odd) > .panel-heading > a {
-  background-color: #6EA7D5 !important; }
+  background-color: #6EA7D5; }
 .site-fen .panel-default:nth-child(even) > .panel-heading > a {
-  background-color: #4470b3 !important; }
+  background-color: #4470b3; }
 .site-fen .panel .panel-default {
   border-radius: 10px; }
 .site-fen .panel-group .panel + .panel {

@@ -6,11 +6,14 @@
     .modal {
         .modal-content {
             border-radius: 16px;
+            border: 3px solid $close-line-color;
+            overflow: hidden;
         }
         .modal-header {
-            background: $site-bg;
+            background: white;
             border-radius: 15px 15px 0 0;
             border: none;
+            padding: 15px 15px 0;
 
             h3 {
                 color: white;
@@ -23,33 +26,38 @@
                 height: 25px;
                 width: 25px;
                 border-radius: 50%;
-                border: 3px solid $slider-btn-info-hover;
+                border: 3px solid $close-line-color;
                 line-height: 0;
-                color: $slider-btn-info-hover;
+                color: $close-line-color;
                 font-size: 30px;
                 padding-bottom: 6px;
+                opacity: 1;
+
+                &:hover {
+                    opacity: 0.5;
+                }
             }
         }
         .modal-body {
-            background: $main-menu-parent-hover-bg;
+            background: white;
+            padding: 0 15px 15px;
 
             h4 {
                 text-transform: none;
                 font-size: 18px;
                 font-weight: 600;
-                margin: 20px 15px 15px 15px;
+                margin: 0 15px 15px 15px;
+                color: $accordion-selected-bg !important;
             }
             p {
                 border-top: 1px solid white;
                 margin: -1px 15px !important;
                 padding: 15px 0;
+                color: black !important;
 
                 &:not(:last-child) {
                     border-bottom: 1px solid white;
                 }
-            }
-            p, h4 {
-                color: white !important;
             }
         }
         .modal-footer {
@@ -72,11 +80,6 @@
             }
         }
 
-        @media (min-width: 768px){
-          .modal-body {
-              background: $main-menu-parent-hover-bg url('http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png') no-repeat 101% -1px / 50% auto !important;
-          }
-        }
         @media (max-width: 767px){
           .modal-footer > * {
               width: 33% !important;
