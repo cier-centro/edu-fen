@@ -559,7 +559,11 @@ h1.logo {
 .site-fen #microsite_panel {
   background-color: white; }
 .site-fen .content p a {
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer;
+  color: #EBA95E; }
+  .site-fen .content p a:hover {
+    color: #94642d; }
 .site-fen .section_content .breadcrumb {
   margin-bottom: 0px;
   height: 40px; }
@@ -1044,16 +1048,19 @@ h1.logo {
     display: block;
     text-align: initial;
     text-decoration: none;
-    background-color: #9CCDE8 !important;
-    background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
-    background-position: 100% -195px;
     border-radius: 8px 8px 5px 5px; }
     .site-fen .panel-default > .panel-heading > a[aria-expanded="true"] {
-      background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
-      background-position: 100% -110px !important; }
+      background-color: #1A254E !important; }
+      .site-fen .panel-default > .panel-heading > a[aria-expanded="true"] h4 {
+        font-weight: 700; }
     .site-fen .panel-default > .panel-heading > a > h4 {
       color: white;
-      margin: 0px !important; }
+      margin: 0px !important;
+      font-weight: 500; }
+.site-fen .panel-default:nth-child(odd) > .panel-heading > a {
+  background-color: #6EA7D5 !important; }
+.site-fen .panel-default:nth-child(even) > .panel-heading > a {
+  background-color: #4470b3 !important; }
 .site-fen .panel .panel-default {
   border-radius: 10px; }
 .site-fen .panel-group .panel + .panel {
