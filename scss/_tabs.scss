@@ -5,13 +5,14 @@
  .#{$site-name} {
      ul.nav.nav-tabs {
          a {
-             background-color: $main-menu-bg;
-             color: white;
+             background-color: white;
+             color: $tabs-text-color;
+             font-weight: 600;
          }
          li.active {
              a {
                  background-color: white;
-                 color: black;
+                 color: $link-text-color;
              }
          }
      }

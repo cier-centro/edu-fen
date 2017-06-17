@@ -999,8 +999,8 @@ h1.logo {
   padding: 0 15px 15px; }
   .site-fen .modal .modal-body h4 {
     text-transform: none;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     margin: 0 15px 15px 15px;
     color: #1A254E !important; }
   .site-fen .modal .modal-body p {
@@ -1031,11 +1031,12 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-fen ul.nav.nav-tabs a {
-  background-color: #2a569b;
-  color: white; }
+  background-color: white;
+  color: #061236;
+  font-weight: 600; }
 .site-fen ul.nav.nav-tabs li.active a {
   background-color: white;
-  color: black; }
+  color: #EBA95E; }
 .site-fen .tab-content {
   background-color: white; }
 .site-fen div .tab-pane.fade {
