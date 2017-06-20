@@ -20,7 +20,7 @@
         position: relative;
 
         span {
-            background: url("http://52.37.84.217/#{$path-site}/img/img-spritesheet.png") no-repeat;
+            background: url("#{$images-path}img-spritesheet.png") no-repeat;
             height: 45px;
             width: 45px;
             position: absolute;

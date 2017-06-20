@@ -41,8 +41,9 @@
                 margin-top: 5px !important;
                 list-style: initial !important;
             }
-            img {
-              margin-top: 35px;
+            .home-image {
+                background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
+                min-height: 150px;
             }
         }
      }
@@ -66,6 +67,10 @@
                width: 600px;
                margin: 15% auto;
             }
+         }
+         .row-center-sm {
+             display: flex;
+             align-items: center;
          }
      }
      @media (min-width: 768px) and (max-width: 1024px){

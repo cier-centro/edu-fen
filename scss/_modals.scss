@@ -67,13 +67,13 @@
             }
             .bienestar-laboral-logo {
                 float: left;
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-bienestarlaboral.png') no-repeat center/contain;
             }
             .new-country-logo {
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-nuevopais.png') no-repeat center/contain;
             }
             .mineducacion-logo {
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-mineducacion.png') no-repeat center/contain;
             }
             .new-country-logo, .mineducacion-logo {
                 float: right;

@@ -6,6 +6,7 @@
 $site-name:                        site-fen;
 $site-slider:                      fen_home_slider;
 $path-site:                        edu-fen;
+$images-path:                      "http://52.37.84.217/#{$path-site}/img/";
 
  // Colors
  // -------------------------------
@@ -41,6 +42,7 @@ $link-text-color:                 #EBA95E !default;
 $link-text-hover:                 #94642d !default;
 $close-line-color:                #858585 !default;
 $tabs-text-color:                 #061236 !default;
+$current-pager-color:             #DE3A73 !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;

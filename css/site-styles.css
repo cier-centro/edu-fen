@@ -575,8 +575,9 @@ h1.logo {
 .site-fen .home-content .view-content li {
   margin-top: 5px !important;
   list-style: initial !important; }
-.site-fen .home-content .view-content img {
-  margin-top: 35px; }
+.site-fen .home-content .view-content .home-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
+  min-height: 150px; }
 @media (min-width: 1100px) {
   .site-fen .main_container .section_content {
     width: 1024px !important; } }
@@ -586,7 +587,10 @@ h1.logo {
 @media (min-width: 768px) {
   .site-fen .content .modal-dialog {
     width: 600px;
-    margin: 15% auto; } }
+    margin: 15% auto; }
+  .site-fen .row-center-sm {
+    display: flex;
+    align-items: center; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .site-fen #banner .view .view-content {
     margin-bottom: 0 !important; } }
@@ -962,11 +966,11 @@ h1.logo {
   height: 50px; }
 .site-fen .modal .modal-footer .bienestar-laboral-logo {
   float: left;
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png") no-repeat center/contain; }
+  background: url("http://52.37.84.217/edu-fen/img/logo-bienestarlaboral.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .new-country-logo {
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png") no-repeat center/contain; }
+  background: url("http://52.37.84.217/edu-fen/img/logo-nuevopais.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .mineducacion-logo {
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png") no-repeat center/contain; }
+  background: url("http://52.37.84.217/edu-fen/img/logo-mineducacion.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .new-country-logo, .site-fen .modal .modal-footer .mineducacion-logo {
   float: right; }
 @media (max-width: 767px) {
@@ -1085,7 +1089,7 @@ h1.logo {
   color: black; }
 .site-fen .content .pager .pager-current {
   background-color: white;
-  color: red;
+  color: #DE3A73;
   width: 40px; }
 .site-fen .content .pager .pager-first a, .site-fen .content .pager .pager-previous a, .site-fen .content .pager .pager-next a, .site-fen .content .pager .pager-last a {
   background: url("http://52.37.84.217/edu-fen/img/img-pager-spritesheet.png"); }

@@ -15,11 +15,11 @@
             }
             .pager-current {
                 background-color: white;
-                color: red;
+                color: $current-pager-color;
                 width: 40px;
             }
             .pager-first a, .pager-previous a, .pager-next a, .pager-last a {
-                background: url("http://52.37.84.217/#{$path-site}/img/img-pager-spritesheet.png");
+                background: url("#{$images-path}img-pager-spritesheet.png");
             }
             .pager-first a {
                 background-position: 3px -20px;
