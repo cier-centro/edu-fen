@@ -1040,13 +1040,13 @@ h1.logo {
       font-weight: 500;
       text-transform: uppercase; }
 .site-fen .ui-accordion .views-row:nth-child(odd) .views-field-title {
-  background-color: #6EA7D5; }
+  background-color: #6EA7D5 !important; }
 .site-fen .ui-accordion .views-row:nth-child(even) .views-field-title {
-  background-color: #4470b3; }
-.site-fen .ui-accordion .ui-state-active {
-  background: #1A254E; }
-  .site-fen .ui-accordion .ui-state-active .field-content {
-    font-weight: 600 !important; }
+  background-color: #4470b3 !important; }
+.site-fen .ui-accordion .views-row .ui-state-active {
+  background: #1A254E !important; }
+  .site-fen .ui-accordion .views-row .ui-state-active .field-content {
+    font-weight: 700 !important; }
 
 /**
  * Lateral Menu Styles

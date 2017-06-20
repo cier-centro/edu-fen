@@ -79,17 +79,17 @@
                 }
             }
             &:nth-child(odd) .views-field-title {
-                background-color: $accordion-odd-bg;
+                background-color: $accordion-odd-bg !important;
             }
             &:nth-child(even) .views-field-title {
-                background-color: $accordion-even-bg;
+                background-color: $accordion-even-bg !important;
             }
-        }
-        .ui-state-active {
-            background: $accordion-selected-bg;
+            .ui-state-active {
+                background: $accordion-selected-bg !important;
 
-            .field-content{
-                font-weight: 600 !important;
+                .field-content{
+                    font-weight: 700 !important;
+                }
             }
         }
     }
