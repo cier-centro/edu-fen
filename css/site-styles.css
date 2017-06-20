@@ -1013,9 +1013,9 @@ h1.logo {
   background-color: #6EA7D5; }
 .site-fen .panel-default:nth-child(even) > .panel-heading > a {
   background-color: #4470b3; }
-.site-fen .panel-default .collapse.in {
+.site-fen .panel-default .panel-collapse {
   margin: -3px 0; }
-  .site-fen .panel-default .collapse.in .panel-body {
+  .site-fen .panel-default .panel-collapse .panel-body {
     border-top: none;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
@@ -1026,6 +1026,27 @@ h1.logo {
     border-radius: 10px; }
 .site-fen .panel-group .panel + .panel {
   margin-top: 0px; }
+.site-fen .ui-accordion .ui-icon {
+  display: none; }
+.site-fen .ui-accordion .views-row .views-field-title {
+  border: none;
+  margin: 0; }
+  .site-fen .ui-accordion .views-row .views-field-title a {
+    text-align: left;
+    padding: 10px 15px;
+    line-height: 100%; }
+    .site-fen .ui-accordion .views-row .views-field-title a .field-content {
+      color: white;
+      font-weight: 500;
+      text-transform: uppercase; }
+.site-fen .ui-accordion .views-row:nth-child(odd) .views-field-title {
+  background-color: #6EA7D5; }
+.site-fen .ui-accordion .views-row:nth-child(even) .views-field-title {
+  background-color: #4470b3; }
+.site-fen .ui-accordion .ui-state-active {
+  background: #1A254E; }
+  .site-fen .ui-accordion .ui-state-active .field-content {
+    font-weight: 600 !important; }
 
 /**
  * Lateral Menu Styles

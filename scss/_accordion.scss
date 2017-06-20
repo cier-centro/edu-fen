@@ -34,7 +34,7 @@
        &:nth-child(even) > .panel-heading > a {
             background-color: $accordion-even-bg;
        }
-       .collapse.in {
+       .panel-collapse {
           margin: -3px 0;
 
           .panel-body {
@@ -55,5 +55,42 @@
     }
     .panel-group .panel+.panel {
         margin-top: 0px;
+    }
+
+    .ui-accordion {
+        .ui-icon {
+            display: none;
+        }
+        .views-row {
+            .views-field-title {
+                border: none;
+                margin: 0;
+
+                a {
+                text-align: left;
+                padding: 10px 15px;
+                line-height: 100%;
+
+                    .field-content {
+                        color: white;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &:nth-child(odd) .views-field-title {
+                background-color: $accordion-odd-bg;
+            }
+            &:nth-child(even) .views-field-title {
+                background-color: $accordion-even-bg;
+            }
+        }
+        .ui-state-active {
+            background: $accordion-selected-bg;
+
+            .field-content{
+                font-weight: 600 !important;
+            }
+        }
     }
 }
