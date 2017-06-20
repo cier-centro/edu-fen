@@ -715,10 +715,14 @@ h1.logo {
       color: transparent;
       padding-bottom: 35px;
       background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -59px -1px; }
+      .site-fen #fen_home_slider .views_slideshow_controls_text_next a:hover {
+        background-position: -59px -55px !important; }
   .site-fen #fen_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
     background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -6px -1px; }
+    .site-fen #fen_home_slider .views-slideshow-controls-text-previous a:hover {
+      background-position: -6px -55px !important; }
   .site-fen #fen_home_slider .views_slideshow_slide, .site-fen #fen_home_slider .views_slideshow_slide img {
     width: 100% !important; }
   .site-fen #fen_home_slider .views_slideshow_slide label {
@@ -768,7 +772,7 @@ h1.logo {
         float: right;
         background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -174px -25px; }
   .site-fen #fen_home_slider .views-more-link {
-    color: white;
+    color: #EBA95E;
     padding: 4px 25px;
     font-weight: 600; }
   .site-fen #fen_home_slider .views-field-title {
@@ -899,6 +903,12 @@ h1.logo {
     position: absolute;
     left: 0;
     top: 0; }
+.site-fen .pdf-button span {
+  background-position: -133px -6px; }
+.site-fen .excel-button span {
+  background-position: -133px -62px; }
+.site-fen .more-info-button span {
+  background-position: -189px -6px; }
 
 /**
  * Modals Styles
@@ -1003,8 +1013,17 @@ h1.logo {
   background-color: #6EA7D5; }
 .site-fen .panel-default:nth-child(even) > .panel-heading > a {
   background-color: #4470b3; }
-.site-fen .panel .panel-default {
-  border-radius: 10px; }
+.site-fen .panel-default .collapse.in {
+  margin: -3px 0; }
+  .site-fen .panel-default .collapse.in .panel-body {
+    border-top: none;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 18px 15px; }
+.site-fen .panel {
+  border: none; }
+  .site-fen .panel .panel-default {
+    border-radius: 10px; }
 .site-fen .panel-group .panel + .panel {
   margin-top: 0px; }
 
