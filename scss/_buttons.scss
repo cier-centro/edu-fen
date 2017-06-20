@@ -3,113 +3,29 @@
  * --------------------------------------------------
  */
  .#{$site-name} {
-     .btn-info {
-         background: transparent;
-         color: $slider-btn-info-hover;
+     .btn {
+         background: $accordion-selected-bg;
+         color: white;
          font-weight: 600;
-         border: 2px solid $slider-btn-info-hover;
+         border: none;
 
          &:hover {
-            background: $table-odd-row-bg !important;
+            background: $accordion-odd-bg !important;
+            border: none;
          }
      }
-     .main-lateral-panel {
-        .views-row {
-            display: flex;
-            align-items: center;
-            border: 2px solid $main-lateral-button-border !important;
-            border-radius: 10px;
-            margin-top: 25px;
-            overflow: hidden;
+     .icon-button {
+        background: $link-text-color;
+        padding: 10px 16px 10px 50px;
+        position: relative;
 
-            &:hover {
-                background: $table-odd-row-bg !important;
-
-                .views-field-title {
-                    span {
-                        a {
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }
-            & > * {
-                height: 100px;
-            }
-            .views-field-title {
-                width: calc(100% - 80px);
-
-                span {
-                    a {
-                        background: transparent;
-                        color: $main-lateral-button-border;
-                        font-weight: 600;
-                        padding: 0 15px 0 35px;
-                        text-align: left;
-                        font-size: 16px;
-                    }
-                }
-                span, a {
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                }
-            }
-            .views-field-php {
-              width: 70px;
-
-              & > span {
-                  &, & > a {
-                      display: flex;
-                      align-items: center;
-                      height: 100%;
-                      width: 100%;
-                  }
-              }
-              .button-icon {
-                  display: block;
-                  height: 80px;
-                  background: url('http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png') no-repeat;
-                  width: 100%;
-              }
-            }
-            &:first-child {
-                .views-field-title {
-                    @include background-button-properties($main-lateral-first-btn-bg);
-                }
-                .views-field-php {
-                    .button-icon {
-                      background-position: -2px 0px;
-                    }
-                }
-            }
-            &:nth-child(2) {
-                .views-field-title {
-                    @include background-button-properties($main-lateral-second-btn-bg);
-                }
-                .views-field-php {
-                    .button-icon {
-                      background-position: -3px -90px;
-                    }
-                }
-            }
-            &:nth-child(3) {
-                .views-field-title {
-                    @include background-button-properties($main-lateral-third-btn-bg);
-                }
-                .views-field-php {
-                    .button-icon {
-                      background-position: -4px -175px;
-                    }
-                }
-            }
+        span {
+          background: url("http://52.37.84.217/#{$path-site}/img/img-spritesheet.png") no-repeat;
+          height: 45px;
+          width: 45px;
+          position: absolute;
+          left: 0;
+          top: 0;
         }
-
-        @media (min-width: 992px) and (max-width: 1024px) {
-            .views-row .views-field-title {
-               width: calc(100% - 70px) !important;
-            }
-        }
-    }
+     }
 }

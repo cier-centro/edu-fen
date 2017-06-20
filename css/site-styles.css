@@ -880,88 +880,25 @@ h1.logo {
  * Buttons Styles
  * --------------------------------------------------
  */
-.site-fen .btn-info {
-  background: transparent;
-  color: #5b5b5b;
+.site-fen .btn {
+  background: #1A254E;
+  color: white;
   font-weight: 600;
-  border: 2px solid #5b5b5b; }
-  .site-fen .btn-info:hover {
-    background: #b8dcef !important; }
-.site-fen .main-lateral-panel .views-row {
-  display: flex;
-  align-items: center;
-  border: 2px solid #a0a0a0 !important;
-  border-radius: 10px;
-  margin-top: 25px;
-  overflow: hidden; }
-  .site-fen .main-lateral-panel .views-row:hover {
-    background: #b8dcef !important; }
-    .site-fen .main-lateral-panel .views-row:hover .views-field-title span a {
-      text-decoration: underline; }
-  .site-fen .main-lateral-panel .views-row > * {
-    height: 100px; }
-  .site-fen .main-lateral-panel .views-row .views-field-title {
-    width: calc(100% - 80px); }
-    .site-fen .main-lateral-panel .views-row .views-field-title span a {
-      background: transparent;
-      color: #a0a0a0;
-      font-weight: 600;
-      padding: 0 15px 0 35px;
-      text-align: left;
-      font-size: 16px; }
-    .site-fen .main-lateral-panel .views-row .views-field-title span, .site-fen .main-lateral-panel .views-row .views-field-title a {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center; }
-  .site-fen .main-lateral-panel .views-row .views-field-php {
-    width: 70px; }
-    .site-fen .main-lateral-panel .views-row .views-field-php > span, .site-fen .main-lateral-panel .views-row .views-field-php > span > a {
-      display: flex;
-      align-items: center;
-      height: 100%;
-      width: 100%; }
-    .site-fen .main-lateral-panel .views-row .views-field-php .button-icon {
-      display: block;
-      height: 80px;
-      background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat;
-      width: 100%; }
-  .site-fen .main-lateral-panel .views-row:first-child .views-field-title {
-    background: #b31b58;
-    background: -moz-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-    background: -webkit-gradient(left top, right top, color-stop(20%, #b31b58), color-stop(20%, rgba(179, 27, 88, 0)));
-    background: -webkit-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-    background: -o-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-    background: -ms-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-    background: linear-gradient(to right, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 ); }
-  .site-fen .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
-    background-position: -2px 0px; }
-  .site-fen .main-lateral-panel .views-row:nth-child(2) .views-field-title {
-    background: #9cc34d;
-    background: -moz-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-    background: -webkit-gradient(left top, right top, color-stop(20%, #9cc34d), color-stop(20%, rgba(156, 195, 77, 0)));
-    background: -webkit-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-    background: -o-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-    background: -ms-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-    background: linear-gradient(to right, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 ); }
-  .site-fen .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
-    background-position: -3px -90px; }
-  .site-fen .main-lateral-panel .views-row:nth-child(3) .views-field-title {
-    background: #66a7dd;
-    background: -moz-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-    background: -webkit-gradient(left top, right top, color-stop(20%, #66a7dd), color-stop(20%, rgba(102, 167, 221, 0)));
-    background: -webkit-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-    background: -o-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-    background: -ms-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-    background: linear-gradient(to right, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 ); }
-  .site-fen .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
-    background-position: -4px -175px; }
-@media (min-width: 992px) and (max-width: 1024px) {
-  .site-fen .main-lateral-panel .views-row .views-field-title {
-    width: calc(100% - 70px) !important; } }
+  border: none; }
+  .site-fen .btn:hover {
+    background: #6EA7D5 !important;
+    border: none; }
+.site-fen .icon-button {
+  background: #EBA95E;
+  padding: 10px 16px 10px 50px;
+  position: relative; }
+  .site-fen .icon-button span {
+    background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 0;
+    top: 0; }
 
 /**
  * Modals Styles
