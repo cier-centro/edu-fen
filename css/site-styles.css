@@ -1034,7 +1034,7 @@ h1.logo {
     border: none;
     margin: 0;
     background: none !important;
-    border-radius: 10px 10px 0 0; }
+    border-radius: 8px 8px 0 0; }
     .site-fen .ui-accordion .views-row .views-field-title a {
       text-align: left;
       padding: 10px 15px;
@@ -1042,7 +1042,8 @@ h1.logo {
       .site-fen .ui-accordion .views-row .views-field-title a .field-content {
         color: white;
         font-weight: 500;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 16px; }
   .site-fen .ui-accordion .views-row:nth-child(odd) {
     background: #6EA7D5 !important; }
   .site-fen .ui-accordion .views-row:nth-child(even) {
@@ -1070,5 +1071,39 @@ h1.logo {
         padding: 10px 0px !important; }
         .site-fen .main-lateral-panel .pane-content ul > li > a:hover {
           text-decoration: none !important; }
+
+/**
+ * Pager Styles
+ * --------------------------------------------------
+ */
+.site-fen .content .pager li > a {
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  color: black; }
+.site-fen .content .pager .pager-current {
+  background-color: white;
+  color: red;
+  width: 40px; }
+.site-fen .content .pager .pager-first a, .site-fen .content .pager .pager-previous a, .site-fen .content .pager .pager-next a, .site-fen .content .pager .pager-last a {
+  background: url("http://52.37.84.217/edu-fen/img/img-pager-spritesheet.png"); }
+.site-fen .content .pager .pager-first a {
+  background-position: 3px -20px; }
+.site-fen .content .pager .pager-previous a {
+  background-position: 3px 3px; }
+.site-fen .content .pager .pager-next a {
+  background-position: -20px 3px; }
+.site-fen .content .pager .pager-last a {
+  background-position: -21px -20px; }
+.site-fen .pager-previous + .pager-item:before, .site-fen .pager-item + .pager-current:before,
+.site-fen .pager-current + .pager-item:before, .site-fen .pager-item + .pager-item:before,
+.site-fen .pager-item + .pager-next:before {
+  content: " | ";
+  color: black;
+  font-weight: bold; }
+.site-fen .pager-item + .pager-current:before {
+  padding-right: 7px; }
 
 /*# sourceMappingURL=site-styles.css.map */
