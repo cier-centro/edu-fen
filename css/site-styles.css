@@ -1030,7 +1030,8 @@ h1.logo {
   display: none; }
 .site-fen .ui-accordion .views-row .views-field-title {
   border: none;
-  margin: 0; }
+  margin: 0;
+  background: none !important; }
   .site-fen .ui-accordion .views-row .views-field-title a {
     text-align: left;
     padding: 10px 15px;
@@ -1039,10 +1040,10 @@ h1.logo {
       color: white;
       font-weight: 500;
       text-transform: uppercase; }
-.site-fen .ui-accordion .views-row:nth-child(odd) .views-field-title {
-  background-color: #6EA7D5 !important; }
-.site-fen .ui-accordion .views-row:nth-child(even) .views-field-title {
-  background-color: #4470b3 !important; }
+.site-fen .ui-accordion .views-row:nth-child(odd) {
+  background: #6EA7D5 !important; }
+.site-fen .ui-accordion .views-row:nth-child(even) {
+  background: #4470b3 !important; }
 .site-fen .ui-accordion .views-row .ui-state-active {
   background: #1A254E !important; }
   .site-fen .ui-accordion .views-row .ui-state-active .field-content {
