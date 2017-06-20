@@ -1028,26 +1028,29 @@ h1.logo {
   margin-top: 0px; }
 .site-fen .ui-accordion .ui-icon {
   display: none; }
-.site-fen .ui-accordion .views-row .views-field-title {
-  border: none;
-  margin: 0;
-  background: none !important; }
-  .site-fen .ui-accordion .views-row .views-field-title a {
-    text-align: left;
-    padding: 10px 15px;
-    line-height: 100%; }
-    .site-fen .ui-accordion .views-row .views-field-title a .field-content {
-      color: white;
-      font-weight: 500;
-      text-transform: uppercase; }
-.site-fen .ui-accordion .views-row:nth-child(odd) {
-  background: #6EA7D5 !important; }
-.site-fen .ui-accordion .views-row:nth-child(even) {
-  background: #4470b3 !important; }
-.site-fen .ui-accordion .views-row .ui-state-active {
-  background: #1A254E !important; }
-  .site-fen .ui-accordion .views-row .ui-state-active .field-content {
-    font-weight: 700 !important; }
+.site-fen .ui-accordion .views-row {
+  border-radius: 8px; }
+  .site-fen .ui-accordion .views-row .views-field-title {
+    border: none;
+    margin: 0;
+    background: none !important;
+    border-radius: 10px 10px 0 0; }
+    .site-fen .ui-accordion .views-row .views-field-title a {
+      text-align: left;
+      padding: 10px 15px;
+      line-height: 100%; }
+      .site-fen .ui-accordion .views-row .views-field-title a .field-content {
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase; }
+  .site-fen .ui-accordion .views-row:nth-child(odd) {
+    background: #6EA7D5 !important; }
+  .site-fen .ui-accordion .views-row:nth-child(even) {
+    background: #4470b3 !important; }
+  .site-fen .ui-accordion .views-row .ui-state-active {
+    background: #1A254E !important; }
+    .site-fen .ui-accordion .views-row .ui-state-active .field-content {
+      font-weight: 700 !important; }
 
 /**
  * Lateral Menu Styles
