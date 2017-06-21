@@ -33,7 +33,7 @@
                         @include transition-properties(all 150ms ease-out);
 
                         * {
-                            color: black !important;
+                            color: white !important;
                         }
 
                         th, td {
@@ -41,17 +41,16 @@
                             @include transition-properties(all 150ms ease-out);
                         }
                     }
-                    th,td{
-                      color: black;
+                    th,td {
+                        padding: 15px !important;
+                        vertical-align: middle !important;
+                        color: black;
                     }
                     td {
                         &:last-child {
                             min-width:100px;
                         }
                     }
-                }
-                td {
-                    padding:2px 3px 2px 3px;
                 }
             }
             td {
@@ -64,6 +63,7 @@
                 tr {
                     th {
                         text-shadow:none;
+                        vertical-align: middle;
                     }
                 }
             }
@@ -81,6 +81,16 @@
                 }
                 td {
                     padding:3px 3px 3px 3px;
+                }
+            }
+
+            @media screen and (max-width: 767px) {
+                .table {
+                    & > tbody > tr > td, & > tbody > tr > th,
+                    & > tfoot > tr > td, & > tfoot > tr > th,
+                    & > thead > tr > td, & > thead > tr > th {
+                        white-space: normal;
+                    }
                 }
             }
         }
@@ -110,7 +120,6 @@
                         padding: 15px;
 
                         &:first-child {
-                            color:rgba(white, 0);
                             border-top-left-radius: 15px;
                             border: none;
                         }
@@ -124,6 +133,12 @@
         }
         .table-bordered {
             border: none;
+
+            & > thead > tr {
+                & > td, & > th {
+                    border-bottom: none;
+                }
+            }
         }
     }
 }
