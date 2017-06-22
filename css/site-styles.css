@@ -918,6 +918,8 @@ h1.logo {
   background-position: -133px -62px; }
 .site-fen .more-info-button span {
   background-position: -189px -6px; }
+.site-fen .table button {
+  white-space: normal; }
 
 /**
  * Modals Styles
