@@ -1002,10 +1002,11 @@ h1.logo {
 .site-fen .quicktabs-wrapper {
   margin: 20px 0; }
   .site-fen .quicktabs-wrapper .quicktabs-tabs {
-    overflow: auto;
-    border: none; }
+    overflow: visible;
+    border: none;
+    height: auto; }
     .site-fen .quicktabs-wrapper .quicktabs-tabs li {
-      padding: 10px 15px;
+      padding: 10px 15px !important;
       border-bottom: 1px solid lightgray; }
       .site-fen .quicktabs-wrapper .quicktabs-tabs li a, .site-fen .quicktabs-wrapper .quicktabs-tabs li a:hover {
         color: #061236;
@@ -1017,10 +1018,20 @@ h1.logo {
         top: 0;
         border: 1px solid #ccc;
         border-bottom: 3px solid #fff;
-        padding: 8px 15px; }
+        padding: 9px 15px !important; }
         .site-fen .quicktabs-wrapper .quicktabs-tabs li.active a {
           border: none;
-          color: #EBA95E; }
+          color: #EBA95E;
+          text-decoration: blink; }
+  .site-fen .quicktabs-wrapper .quicktabs_main {
+    border-top: 1px solid lightgray;
+    top: -1px;
+    position: relative;
+    padding: 15px; }
+  @media (max-width: 767px) {
+    .site-fen .quicktabs-wrapper .quicktabs-tabs li {
+      height: auto;
+      width: auto; } }
 
 /**
 * Accordion Styles
