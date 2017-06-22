@@ -557,7 +557,8 @@ h1.logo {
   background: linear-gradient(to right, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CCDE8', endColorstr='#9CCDE8', GradientType=1 ); }
 .site-fen #microsite_panel {
-  background-color: white; }
+  background-color: white;
+  min-height: 820px; }
 .site-fen .content p a {
   text-decoration: underline;
   cursor: pointer;
@@ -610,8 +611,7 @@ h1.logo {
 .site-fen .content h1 {
   color: #162a55;
   margin-top: 30px;
-  font-size: 30px;
-  padding-left: 10px; }
+  font-size: 30px; }
 .site-fen .content h2 {
   font-size: 20px;
   color: #162a55;
@@ -990,12 +990,14 @@ h1.logo {
  */
 .site-fen .tabs-content {
   margin: 20px 0; }
-.site-fen ul.nav.nav-tabs a {
-  color: #061236;
-  font-weight: 600; }
-.site-fen ul.nav.nav-tabs li.active a {
-  background-color: white;
-  color: #EBA95E; }
+.site-fen ul.nav.nav-tabs {
+  display: flex; }
+  .site-fen ul.nav.nav-tabs a {
+    color: #061236;
+    font-weight: 600; }
+  .site-fen ul.nav.nav-tabs li.active a {
+    background-color: white;
+    color: #EBA95E; }
 .site-fen .tab-content {
   background-color: white; }
 .site-fen div .tab-pane.fade {
