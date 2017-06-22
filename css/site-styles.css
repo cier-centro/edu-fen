@@ -988,8 +988,9 @@ h1.logo {
  * Tabs Styles
  * --------------------------------------------------
  */
+.site-fen .tabs-content {
+  margin: 20px 0; }
 .site-fen ul.nav.nav-tabs a {
-  background-color: white;
   color: #061236;
   font-weight: 600; }
 .site-fen ul.nav.nav-tabs li.active a {

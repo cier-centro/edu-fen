@@ -3,9 +3,11 @@
  * --------------------------------------------------
  */
  .#{$site-name} {
+    .tabs-content {
+        margin: 20px 0;
+    }
      ul.nav.nav-tabs {
          a {
-             background-color: white;
              color: $tabs-text-color;
              font-weight: 600;
          }
