@@ -45,9 +45,10 @@
                 }
                 &.active {
                     top: 0;
-                    border: 1px solid #ccc;
-                    border-bottom: 3px solid #fff;
+                    border: 1px solid lightgray !important;
+                    border-bottom: 3px solid white !important;
                     padding: 9px 15px !important;
+                    position: relative !important;
 
                     a {
                         border: none;

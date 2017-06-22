@@ -1016,9 +1016,10 @@ h1.logo {
         text-decoration: underline; }
       .site-fen .quicktabs-wrapper .quicktabs-tabs li.active {
         top: 0;
-        border: 1px solid #ccc;
-        border-bottom: 3px solid #fff;
-        padding: 9px 15px !important; }
+        border: 1px solid lightgray !important;
+        border-bottom: 3px solid white !important;
+        padding: 9px 15px !important;
+        position: relative !important; }
         .site-fen .quicktabs-wrapper .quicktabs-tabs li.active a {
           border: none;
           color: #EBA95E;
