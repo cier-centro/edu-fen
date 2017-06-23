@@ -54,6 +54,19 @@
             margin: 15px 0;
         }
      }
+     .media {
+        .media-left {
+            a {
+                width: 110px;
+                display: block;
+            }
+        }
+        .media-body {
+            .media-heading {
+                margin-top: 0 !important;
+            }
+        }
+     }
 
      @media (min-width: 1100px) {
          .main_container {
