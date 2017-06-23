@@ -582,11 +582,13 @@ h1.logo {
 .site-fen .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
-.site-fen .media .media-left a {
-  width: 110px;
-  display: block; }
-.site-fen .media .media-body .media-heading {
-  margin-top: 0 !important; }
+.site-fen .media {
+  margin: 30px 0; }
+  .site-fen .media .media-left a {
+    width: 110px;
+    display: block; }
+  .site-fen .media .media-body .media-heading {
+    margin-top: 0 !important; }
 @media (min-width: 1100px) {
   .site-fen .main_container .section_content {
     width: 1024px !important; } }
