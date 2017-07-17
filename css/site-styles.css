@@ -571,12 +571,12 @@ h1.logo {
 .site-fen .section_content p {
   margin-top: 10px !important;
   color: #666666 !important; }
-.site-fen .home-content .view-content ul {
+.site-fen .home-content .view-content ul, .site-fen .general-content .view-content ul {
   padding-left: 40px !important; }
-.site-fen .home-content .view-content li {
+.site-fen .home-content .view-content li, .site-fen .general-content .view-content li {
   margin-top: 5px !important;
   list-style: initial !important; }
-.site-fen .home-content .view-content .home-image {
+.site-fen .home-content .view-content .home-image, .site-fen .general-content .view-content .home-image {
   background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
   min-height: 150px; }
 .site-fen .registration-content .row > * {
