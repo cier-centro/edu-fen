@@ -31,8 +31,12 @@
         p {
           margin-top: 10px !important;
           color: $paragraph-text-color !important;
+          text-align: justify;
         }
      }
+     .general-content {
+         min-height: 150px;
+      }
      .home-content, .general-content {
         .view-content {
             ul {
