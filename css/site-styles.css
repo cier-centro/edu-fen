@@ -815,6 +815,8 @@ h1.logo {
     width: 100%;
     z-index: 10;
     padding: 0 15px; }
+  .site-fen #fen_home_slider h2 {
+    display: none; }
   @media (max-width: 767px) {
     .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-php, .site-fen #fen_home_slider .views_slideshow_slide > div .views-field-body {
       display: none; }
