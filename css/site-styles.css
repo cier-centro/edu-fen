@@ -581,7 +581,7 @@ h1.logo {
   list-style: initial !important; }
 .site-fen .home-content .view-content .home-image, .site-fen .general-content .view-content .home-image {
   background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
-  min-height: 150px; }
+  min-height: 200px; }
 .site-fen .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
