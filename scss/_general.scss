@@ -35,7 +35,7 @@
         }
      }
      .general-content {
-         min-height: 150px;
+         min-height: 200px;
       }
      .home-content, .general-content {
         .view-content {
@@ -57,7 +57,7 @@
             }
             .home-image {
                 background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
-                min-height: 200px;
+                min-height: 150px;
             }
         }
      }

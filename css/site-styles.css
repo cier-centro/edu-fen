@@ -573,7 +573,7 @@ h1.logo {
   color: #666666 !important;
   text-align: justify; }
 .site-fen .general-content {
-  min-height: 150px; }
+  min-height: 200px; }
 .site-fen .home-content .view-content ul > li, .site-fen .general-content .view-content ul > li {
   list-style: disc !important; }
 .site-fen .home-content .view-content ol > li, .site-fen .general-content .view-content ol > li {
@@ -584,7 +584,7 @@ h1.logo {
   margin-top: 5px !important; }
 .site-fen .home-content .view-content .home-image, .site-fen .general-content .view-content .home-image {
   background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
-  min-height: 200px; }
+  min-height: 150px; }
 .site-fen .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
