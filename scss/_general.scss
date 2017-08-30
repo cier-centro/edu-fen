@@ -8,11 +8,18 @@
      }
      #microsite_panel {
          background-color: $content-bg;
+         min-height: 820px;
      }
      .content {
          p {
              a {
                text-decoration: underline;
+               cursor: pointer;
+               color: $link-text-color;
+
+               &:hover {
+                  color: $link-text-hover;
+               }
              }
          }
      }
@@ -24,9 +31,13 @@
         p {
           margin-top: 10px !important;
           color: $paragraph-text-color !important;
+          text-align: justify;
         }
      }
-     .home-content {
+     .general-content {
+         min-height: 150px;
+      }
+     .home-content, .general-content {
         .view-content {
             ul {
                 padding-left: 40px !important;
@@ -35,12 +46,33 @@
                 margin-top: 5px !important;
                 list-style: initial !important;
             }
-            img {
-              margin-top: 35px;
+            .home-image {
+                background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
+                min-height: 150px;
             }
         }
      }
+     .registration-content {
+        .row > * {
+            text-align: center;
+            margin: 15px 0;
+        }
+     }
+     .media {
+        margin: 30px 0;
 
+        .media-left {
+            a {
+                width: 110px;
+                display: block;
+            }
+        }
+        .media-body {
+            .media-heading {
+                margin-top: 0 !important;
+            }
+        }
+     }
 
      @media (min-width: 1100px) {
          .main_container {
@@ -60,6 +92,10 @@
                width: 600px;
                margin: 15% auto;
             }
+         }
+         .row-center-sm {
+             display: flex;
+             align-items: center;
          }
      }
      @media (min-width: 768px) and (max-width: 1024px){
