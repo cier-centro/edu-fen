@@ -40,12 +40,12 @@
      .home-content, .general-content {
         .view-content {
             ul {
-                li {
+                & > li {
                   list-style: disc !important;
                 }
             }
             ol {
-                li {
+                & > li {
                   list-style: decimal !important;
                 }
             }

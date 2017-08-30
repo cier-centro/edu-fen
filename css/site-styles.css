@@ -574,9 +574,9 @@ h1.logo {
   text-align: justify; }
 .site-fen .general-content {
   min-height: 150px; }
-.site-fen .home-content .view-content ul li, .site-fen .general-content .view-content ul li {
+.site-fen .home-content .view-content ul > li, .site-fen .general-content .view-content ul > li {
   list-style: disc !important; }
-.site-fen .home-content .view-content ol li, .site-fen .general-content .view-content ol li {
+.site-fen .home-content .view-content ol > li, .site-fen .general-content .view-content ol > li {
   list-style: decimal !important; }
 .site-fen .home-content .view-content ul, .site-fen .home-content .view-content ol, .site-fen .general-content .view-content ul, .site-fen .general-content .view-content ol {
   padding-left: 40px !important; }
