@@ -574,11 +574,14 @@ h1.logo {
   text-align: justify; }
 .site-fen .general-content {
   min-height: 150px; }
-.site-fen .home-content .view-content ul, .site-fen .general-content .view-content ul {
+.site-fen .home-content .view-content ul li, .site-fen .general-content .view-content ul li {
+  list-style: disc !important; }
+.site-fen .home-content .view-content ol li, .site-fen .general-content .view-content ol li {
+  list-style: decimal !important; }
+.site-fen .home-content .view-content ul, .site-fen .home-content .view-content ol, .site-fen .general-content .view-content ul, .site-fen .general-content .view-content ol {
   padding-left: 40px !important; }
 .site-fen .home-content .view-content li, .site-fen .general-content .view-content li {
-  margin-top: 5px !important;
-  list-style: initial !important; }
+  margin-top: 5px !important; }
 .site-fen .home-content .view-content .home-image, .site-fen .general-content .view-content .home-image {
   background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
   min-height: 200px; }
@@ -913,6 +916,11 @@ h1.logo {
   color: white;
   font-weight: 600;
   border: none; }
+  .site-fen .btn.download-btn {
+    background-color: #4470b3;
+    width: 100%;
+    padding: 10px;
+    margin: 7px; }
   .site-fen .btn:hover {
     background: #6EA7D5 !important;
     border: none; }

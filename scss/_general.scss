@@ -40,11 +40,20 @@
      .home-content, .general-content {
         .view-content {
             ul {
+                li {
+                  list-style: disc !important;
+                }
+            }
+            ol {
+                li {
+                  list-style: decimal !important;
+                }
+            }
+            ul, ol {
                 padding-left: 40px !important;
             }
             li {
                 margin-top: 5px !important;
-                list-style: initial !important;
             }
             .home-image {
                 background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
