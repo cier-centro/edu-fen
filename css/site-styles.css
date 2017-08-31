@@ -943,6 +943,14 @@ h1.logo {
   background-position: -189px -6px; }
 .site-fen .table button {
   white-space: normal; }
+.site-fen .enlistment-modals > button {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 20px calc(17% - 65px); }
+@media (max-width: 767px) {
+  .site-fen .enlistment-modals > button {
+    margin: 20px calc(25% - 61px); } }
 
 /**
  * Modals Styles

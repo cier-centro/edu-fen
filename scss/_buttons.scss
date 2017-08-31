@@ -55,5 +55,21 @@
           button {
               white-space: normal;
           }
+     }
+     .enlistment-modals {
+          & > button {
+              height: 120px;
+              width: 120px;
+              border-radius: 50%;
+              margin: 20px calc(17% - 65px);
+          }
+      }
+
+      @media (max-width: 767px) {
+          .enlistment-modals {
+              & > button {
+                  margin: 20px calc(25% - 61px);
+              }
+          }
       }
 }
