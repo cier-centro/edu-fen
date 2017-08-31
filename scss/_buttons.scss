@@ -61,7 +61,30 @@
               height: 120px;
               width: 120px;
               border-radius: 50%;
+              color: transparent;
               margin: 20px calc(17% - 65px);
+              background: transparent no-repeat center / contain;
+          }
+          button:nth-child(1) {
+              background-image: url("#{$images-path}img_modalbutton1.png") !important;
+          }
+          button:nth-child(3) {
+              background-image: url("#{$images-path}img_modalbutton2.png") !important;
+          }
+          button:nth-child(5) {
+              background-image: url("#{$images-path}img_modalbutton3.png") !important;
+          }
+          button:nth-child(7) {
+              background-image: url("#{$images-path}img_modalbutton4.png") !important;
+          }
+          button:nth-child(9) {
+              background-image: url("#{$images-path}img_modalbutton5.png") !important;
+          }
+          button:nth-child(11) {
+              background-image: url("#{$images-path}img_modalbutton6.png") !important;
+          }
+          button:nth-child(13) {
+              background-image: url("#{$images-path}img_modalbutton7.png") !important;
           }
       }
 

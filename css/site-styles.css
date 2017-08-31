@@ -947,7 +947,23 @@ h1.logo {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  margin: 20px calc(17% - 65px); }
+  color: transparent;
+  margin: 20px calc(17% - 65px);
+  background: transparent no-repeat center / contain; }
+.site-fen .enlistment-modals button:nth-child(1) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton1.png") !important; }
+.site-fen .enlistment-modals button:nth-child(3) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton2.png") !important; }
+.site-fen .enlistment-modals button:nth-child(5) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton3.png") !important; }
+.site-fen .enlistment-modals button:nth-child(7) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton4.png") !important; }
+.site-fen .enlistment-modals button:nth-child(9) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton5.png") !important; }
+.site-fen .enlistment-modals button:nth-child(11) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton6.png") !important; }
+.site-fen .enlistment-modals button:nth-child(13) {
+  background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton7.png") !important; }
 @media (max-width: 767px) {
   .site-fen .enlistment-modals > button {
     margin: 20px calc(25% - 61px); } }
