@@ -951,7 +951,10 @@ h1.logo {
   margin: 20px calc(17% - 65px);
   background: transparent no-repeat center / contain; }
   .site-fen .enlistment-modals > button:hover {
-    background: #6EA7D5 no-repeat center/contain; }
+    background-color: white !important;
+    background-size: contain !important;
+    color: transparent !important;
+    border: 2px solid #6EA7D5; }
 .site-fen .enlistment-modals button:nth-child(1) {
   background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton1.png") !important; }
 .site-fen .enlistment-modals button:nth-child(3) {

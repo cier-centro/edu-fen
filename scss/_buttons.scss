@@ -66,7 +66,10 @@
               background: transparent no-repeat center / contain;
 
               &:hover {
-                  background: $accordion-odd-bg no-repeat center / contain;
+                background-color: white !important;
+                background-size: contain !important;
+                color: transparent !important;
+                border: 2px solid $accordion-odd-bg;
               }
           }
           button:nth-child(1) {
