@@ -915,7 +915,8 @@ h1.logo {
   background: #1A254E;
   color: white;
   font-weight: 600;
-  border: none; }
+  border: none;
+  white-space: normal; }
   .site-fen .btn.download-btn {
     background-color: #4470b3;
     width: 100%;
