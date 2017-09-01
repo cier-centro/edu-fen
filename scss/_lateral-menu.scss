@@ -14,14 +14,42 @@
          & > li{
            width: 100%;
            &:hover{
-             background-color: $lateral-menu-hover-bg;
-             }
-
+             background-color: $lateral-menu-hover-bg !important;
+           }
+           &:last-child {
+             background-color: $table-row-hover-bg;
+           }
+           &:not(:last-child) a {
+             border-bottom: 1px solid white;
+           }
            & > a{
-             padding: 10px 0px !important;
+             padding: 25px 50px 25px 15px !important;
+             position: relative;
+             text-align: left;
              &:hover{
                text-decoration: none !important;
              }
+             &:after {
+                content: "";
+                background: url("#{$images-path}img-spritesheet.png");
+                height: 50px;
+                width: 40px;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+             }
+           }
+           &:first-child a:after {
+             background-position: -8px -113px;
+           }
+           &:nth-child(2) a:after {
+             background-position: -108px -113px;
+           }
+           &:nth-child(3) a:after {
+             background-position: -163px -113px;
+           }
+           &:last-child a:after {
+             background-position: -58px -113px;
            }
          }
        }

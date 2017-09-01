@@ -1166,11 +1166,33 @@ h1.logo {
     .site-fen .main-lateral-panel .pane-content ul > li {
       width: 100%; }
       .site-fen .main-lateral-panel .pane-content ul > li:hover {
-        background-color: #3c3c3a; }
+        background-color: #3c3c3a !important; }
+      .site-fen .main-lateral-panel .pane-content ul > li:last-child {
+        background-color: #4470B3; }
+      .site-fen .main-lateral-panel .pane-content ul > li:not(:last-child) a {
+        border-bottom: 1px solid white; }
       .site-fen .main-lateral-panel .pane-content ul > li > a {
-        padding: 10px 0px !important; }
+        padding: 25px 50px 25px 15px !important;
+        position: relative;
+        text-align: left; }
         .site-fen .main-lateral-panel .pane-content ul > li > a:hover {
           text-decoration: none !important; }
+        .site-fen .main-lateral-panel .pane-content ul > li > a:after {
+          content: "";
+          background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png");
+          height: 50px;
+          width: 40px;
+          position: absolute;
+          right: 10px;
+          top: 10px; }
+      .site-fen .main-lateral-panel .pane-content ul > li:first-child a:after {
+        background-position: -8px -113px; }
+      .site-fen .main-lateral-panel .pane-content ul > li:nth-child(2) a:after {
+        background-position: -108px -113px; }
+      .site-fen .main-lateral-panel .pane-content ul > li:nth-child(3) a:after {
+        background-position: -163px -113px; }
+      .site-fen .main-lateral-panel .pane-content ul > li:last-child a:after {
+        background-position: -58px -113px; }
 
 /**
  * Pager Styles
