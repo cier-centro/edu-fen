@@ -1,13 +1,13 @@
 var app = "";
 var jsonData=[ 
-{ { 
+{ 
  "no ":"1",
  "etc ":" Amazonas",
  "fecha ":"11 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"-1.075.072",
- "coordenaday ":"-71.691.738"
+ "coordenadax ":"-3.775.072",
+ "coordenaday ":"-70.190.738"
 },
 { 
  "no ":"2",
@@ -60,8 +60,8 @@ var jsonData=[
  "fecha ":"30 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.106.562",
- "coordenaday ":"-73.765.846"
+ "coordenadax ":"10.988.865",
+ "coordenaday ":"-74.808.233"
 },
 { 
  "no ":"8",
@@ -69,8 +69,8 @@ var jsonData=[
  "fecha ":"31 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.988.865",
- "coordenaday ":"-74.808.233"
+ "coordenadax ":"6.335.632",
+ "coordenaday ":"-75.553.457"
 },
 { 
  "no ":"9",
@@ -78,8 +78,8 @@ var jsonData=[
  "fecha ":"23 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.335.632",
- "coordenaday ":"-75.553.457"
+ "coordenadax ":"10.988.865",
+ "coordenaday ":"74.808.233"
 },
 { 
  "no ":"10",
@@ -132,8 +132,8 @@ var jsonData=[
  "fecha ":"18 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.899.271",
- "coordenaday ":"-76.298.704"
+ "coordenadax ":"5.323.986",
+ "coordenaday ":"-75.416.268"
 },
 { 
  "no ":"16",
@@ -141,8 +141,8 @@ var jsonData=[
  "fecha ":"28 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.323.986",
- "coordenaday ":"-75.416.268"
+ "coordenadax ":"3.450.924",
+ "coordenaday ":"-76.522.576"
 },
 { 
  "no ":"17",
@@ -150,8 +150,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.450.924",
- "coordenaday ":"-76.522.576"
+ "coordenadax ":"1",
+ "coordenaday ":"-74.006.858"
 },
 { 
  "no ":"18",
@@ -159,8 +159,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"1",
- "coordenaday ":"-74.006.858"
+ "coordenadax ":"10.391.399",
+ "coordenaday ":"-75.489.371"
 },
 { 
  "no ":"19",
@@ -168,8 +168,8 @@ var jsonData=[
  "fecha ":"22 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.391.399",
- "coordenaday ":"-75.489.371"
+ "coordenadax ":"4.723.677",
+ "coordenaday ":"-75.923.086"
 },
 { 
  "no ":"20",
@@ -177,8 +177,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.723.677",
- "coordenaday ":"-75.923.086"
+ "coordenadax ":"5.486.887",
+ "coordenaday ":"-71.497.610"
 },
 { 
  "no ":"21",
@@ -186,8 +186,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.486.887",
- "coordenaday ":"-71.497.610"
+ "coordenadax ":"2.364.316",
+ "coordenaday ":"-77.000.158"
 },
 { 
  "no ":"22",
@@ -195,8 +195,8 @@ var jsonData=[
  "fecha ":"30 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"-1.075.072",
- "coordenaday ":"-71.691.738"
+ "coordenadax ":"9.595.171",
+ "coordenaday ":"-73.552.219"
 },
 { 
  "no ":"23",
@@ -204,8 +204,8 @@ var jsonData=[
  "fecha ":"26 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.815.927",
- "coordenaday ":"-75.426.080"
+ "coordenadax ":"4.863.390",
+ "coordenaday ":"-74.052.034"
 },
 { 
  "no ":"24",
@@ -213,8 +213,8 @@ var jsonData=[
  "fecha ":"7 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.896.890",
- "coordenaday ":"-76.563.602"
+ "coordenadax ":"5.146.402",
+ "coordenaday ":"-76.803.013"
 },
 { 
  "no ":"25",
@@ -222,8 +222,8 @@ var jsonData=[
  "fecha ":"18 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.649.707",
- "coordenaday ":"-71.122.013"
+ "coordenadax ":"11.008.298",
+ "coordenaday ":"-74.246.374"
 },
 { 
  "no ":"26",
@@ -231,8 +231,8 @@ var jsonData=[
  "fecha ":"5 SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.515.978",
- "coordenaday ":"-75.723.369"
+ "coordenadax ":"8.439.250",
+ "coordenaday ":"-75.853.045"
 },
 { 
  "no ":"27",
@@ -240,8 +240,8 @@ var jsonData=[
  "fecha ":"18 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.740.820",
- "coordenaday ":"-74.940.417"
+ "coordenadax ":"8.141.635",
+ "coordenaday ":"-72.466.244"
 },
 { 
  "no ":"28",
@@ -249,8 +249,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"7.106.562",
- "coordenaday ":"-73.765.846"
+ "coordenadax ":"5.220.047",
+ "coordenaday ":"-74.182.339"
 },
 { 
  "no ":"29",
@@ -258,8 +258,8 @@ var jsonData=[
  "fecha ":"28 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.988.865",
- "coordenaday ":"-74.808.233"
+ "coordenadax ":"4.830.768",
+ "coordenaday ":"-75.680.123"
 },
 { 
  "no ":"30",
@@ -267,8 +267,8 @@ var jsonData=[
  "fecha ":"31 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.335.632",
- "coordenaday ":"-75.553.457"
+ "coordenadax ":"5.890.628",
+ "coordenaday ":"-73.063.855"
 },
 { 
  "no ":"31",
@@ -276,8 +276,8 @@ var jsonData=[
  "fecha ":"17 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.651.706",
- "coordenaday ":"-74.094.083"
+ "coordenadax ":"6.168.616",
+ "coordenaday ":"-75.587.079"
 },
 { 
  "no ":"32",
@@ -285,8 +285,8 @@ var jsonData=[
  "fecha ":"29 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"9.175.307",
- "coordenaday ":"-74.629.976"
+ "coordenadax ":"4.842.440",
+ "coordenaday ":"-74.344.428"
 },
 { 
  "no ":"33",
@@ -294,8 +294,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.603.707",
- "coordenaday ":"-73.177.345"
+ "coordenadax ":"1.763.731",
+ "coordenaday ":"-75.570.294"
 },
 { 
  "no ":"34",
@@ -303,8 +303,8 @@ var jsonData=[
  "fecha ":"16 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.165.358",
- "coordenaday ":"-73.110.994"
+ "coordenadax ":"7.071.031",
+ "coordenaday ":"-73.106.217"
 },
 { 
  "no ":"35",
@@ -312,8 +312,8 @@ var jsonData=[
  "fecha ":"28 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.921.854",
- "coordenaday ":"-76.970.704"
+ "coordenadax ":"4.319.713",
+ "coordenaday ":"-74.402.246"
 },
 { 
  "no ":"36",
@@ -321,8 +321,8 @@ var jsonData=[
  "fecha ":"7  DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.899.271",
- "coordenaday ":"-76.298.704"
+ "coordenadax ":"4.303.349",
+ "coordenaday ":"-74.803.123"
 },
 { 
  "no ":"37",
@@ -330,8 +330,8 @@ var jsonData=[
  "fecha ":"5 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.323.986",
- "coordenaday ":"-75.416.268"
+ "coordenadax ":"7.073.129",
+ "coordenaday ":"-73.169.203"
 },
 { 
  "no ":"38",
@@ -339,8 +339,8 @@ var jsonData=[
  "fecha ":"28 DE JULIO",
  "mes ":"JULIO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.450.924",
- "coordenaday ":"-76.522.576"
+ "coordenadax ":"4.054.3",
+ "coordenaday ":"-76.295.419"
 },
 { 
  "no ":"39",
@@ -348,8 +348,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"1",
- "coordenaday ":"-74.006.858"
+ "coordenadax ":"2.971.477",
+ "coordenaday ":"-68.969.510"
 },
 { 
  "no ":"40",
@@ -357,8 +357,8 @@ var jsonData=[
  "fecha ":"24 Y 25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.391.399",
- "coordenaday ":"-75.489.371"
+ "coordenadax ":"2.095.879",
+ "coordenaday ":"-72.100.510"
 },
 { 
  "no ":"41",
@@ -366,8 +366,8 @@ var jsonData=[
  "fecha ":"24 Y 25 AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.723.677",
- "coordenaday ":"-75.923.086"
+ "coordenadax ":"2.749.019",
+ "coordenaday ":"-75.449.037"
 },
 { 
  "no ":"42",
@@ -375,8 +375,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"APLAZADA PENDIENTE FECHA",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.486.887",
- "coordenaday ":"-71.497.610"
+ "coordenadax ":"4.441.213",
+ "coordenaday ":"-75.238.791"
 },
 { 
  "no ":"43",
@@ -384,8 +384,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"-1.075.072",
- "coordenaday ":"-71.691.738"
+ "coordenadax ":"1",
+ "coordenaday ":"-77.439.853"
 },
 { 
  "no ":"44",
@@ -393,8 +393,8 @@ var jsonData=[
  "fecha ":"23 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.815.927",
- "coordenaday ":"-75.426.080"
+ "coordenadax ":"6.169.447",
+ "coordenaday ":"-75.613.329"
 },
 { 
  "no ":"45",
@@ -402,8 +402,8 @@ var jsonData=[
  "fecha ":"CANCELADO FORO",
  "mes ":"CANCELADO FORO",
  "estado ":"CANCELADO FORO",
- "coordenadax ":"7.896.890",
- "coordenaday ":"-76.563.602"
+ "coordenadax ":"3.261.615",
+ "coordenaday ":"-76.540.823"
 },
 { 
  "no ":"46",
@@ -411,8 +411,8 @@ var jsonData=[
  "fecha ":"CANCELADO FORO",
  "mes ":"CANCELADO FORO",
  "estado ":"CANCELADO FORO",
- "coordenadax ":"6.649.707",
- "coordenaday ":"-71.122.013"
+ "coordenadax ":"11.637.145",
+ "coordenaday ":"-72.265.589"
 },
 { 
  "no ":"47",
@@ -420,8 +420,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"4.515.978",
- "coordenaday ":"-75.723.369"
+ "coordenadax ":"9.180.754",
+ "coordenaday ":"-75.914.405"
 },
 { 
  "no ":"48",
@@ -429,8 +429,8 @@ var jsonData=[
  "fecha ":"31 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.740.820",
- "coordenaday ":"-74.940.417"
+ "coordenadax ":"9.240.748",
+ "coordenaday ":"-74.753.151"
 },
 { 
  "no ":"49",
@@ -438,8 +438,8 @@ var jsonData=[
  "fecha ":"4 y 5 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.106.562",
- "coordenaday ":"-73.765.846"
+ "coordenadax ":"10.343.595",
+ "coordenaday ":"-74.322.237"
 },
 { 
  "no ":"50",
@@ -447,8 +447,8 @@ var jsonData=[
  "fecha ":"15 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"POR DEFINIR",
- "coordenadax ":"10.988.865",
- "coordenaday ":"-74.808.233"
+ "coordenadax ":"11.378.448",
+ "coordenaday ":"-72.248.203"
 },
 { 
  "no ":"51",
@@ -456,8 +456,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.335.632",
- "coordenaday ":"-75.553.457"
+ "coordenadax ":"10.856.062",
+ "coordenaday ":"-74.774.442"
 },
 { 
  "no ":"52",
@@ -465,8 +465,8 @@ var jsonData=[
  "fecha ":"30 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.651.706",
- "coordenaday ":"-74.094.083"
+ "coordenadax ":"5.077.517",
+ "coordenaday ":"-75.516.268"
 },
 { 
  "no ":"53",
@@ -474,8 +474,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"9.175.307",
- "coordenaday ":"-74.629.976"
+ "coordenadax ":"6.255.294",
+ "coordenaday ":"-75.564.904"
 },
 { 
  "no ":"54",
@@ -483,8 +483,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.603.707",
- "coordenaday ":"-73.177.345"
+ "coordenadax ":"3.485.893",
+ "coordenaday ":"-73.116.660"
 },
 { 
  "no ":"55",
@@ -492,8 +492,8 @@ var jsonData=[
  "fecha ":"29 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.165.358",
- "coordenaday ":"-73.110.994"
+ "coordenadax ":"8.823.775",
+ "coordenaday ":"-75.782.826"
 },
 { 
  "no ":"56",
@@ -501,8 +501,8 @@ var jsonData=[
  "fecha ":"17 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.921.854",
- "coordenaday ":"-76.970.704"
+ "coordenadax ":"4.678.858",
+ "coordenaday ":"-74.232.826"
 },
 { 
  "no ":"57",
@@ -510,8 +510,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.899.271",
- "coordenaday ":"-76.298.704"
+ "coordenadax ":"2.017.503",
+ "coordenaday ":"-77.954.097"
 },
 { 
  "no ":"58",
@@ -519,8 +519,8 @@ var jsonData=[
  "fecha ":"1 Y 2 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.323.986",
- "coordenaday ":"-75.416.268"
+ "coordenadax ":"2.949.610",
+ "coordenaday ":"-75.265.950"
 },
 { 
  "no ":"59",
@@ -528,8 +528,8 @@ var jsonData=[
  "fecha ":"8 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.450.924",
- "coordenaday ":"-76.522.576"
+ "coordenadax ":"8.279.882",
+ "coordenaday ":"-72.935.462"
 },
 { 
  "no ":"60",
@@ -537,8 +537,8 @@ var jsonData=[
  "fecha ":"6 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"1",
- "coordenaday ":"-74.006.858"
+ "coordenadax ":"3.536.811",
+ "coordenaday ":"-76.296.627"
 },
 { 
  "no ":"61",
@@ -546,8 +546,8 @@ var jsonData=[
  "fecha ":"6 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.391.399",
- "coordenaday ":"-75.489.371"
+ "coordenadax ":"1.207.519",
+ "coordenaday ":"-77.285.892"
 },
 { 
  "no ":"62",
@@ -555,8 +555,8 @@ var jsonData=[
  "fecha ":"22 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.723.677",
- "coordenaday ":"-75.923.086"
+ "coordenadax ":"4.796.639",
+ "coordenaday ":"-75.782.788"
 },
 { 
  "no ":"63",
@@ -564,8 +564,8 @@ var jsonData=[
  "fecha ":"3  DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.486.887",
- "coordenaday ":"-71.497.610"
+ "coordenadax ":"6.984.593",
+ "coordenaday ":"-73.021.266"
 },
 { 
  "no ":"64",
@@ -573,8 +573,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"-1.075.072",
- "coordenaday ":"-71.691.738"
+ "coordenadax ":"1.849.461",
+ "coordenaday ":"-76.104.193"
 },
 { 
  "no ":"65",
@@ -582,8 +582,8 @@ var jsonData=[
  "fecha ":"10 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.815.927",
- "coordenaday ":"-75.426.080"
+ "coordenadax ":"2.482.825",
+ "coordenaday ":"-76.604.158"
 },
 { 
  "no ":"66",
@@ -591,8 +591,8 @@ var jsonData=[
  "fecha ":"8 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.896.890",
- "coordenaday ":"-76.563.602"
+ "coordenadax ":"0.654.3",
+ "coordenaday ":"-76.139.419"
 },
 { 
  "no ":"67",
@@ -600,8 +600,8 @@ var jsonData=[
  "fecha ":"24 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.649.707",
- "coordenaday ":"-71.122.013"
+ "coordenadax ":"5.694.608",
+ "coordenaday ":"-76.650.499"
 },
 { 
  "no ":"68",
@@ -609,8 +609,8 @@ var jsonData=[
  "fecha ":"27 DE JULIO",
  "mes ":"JULIO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.515.978",
- "coordenaday ":"-75.723.369"
+ "coordenadax ":"4.482.536",
+ "coordenaday ":"-75.686.416"
 },
 { 
  "no ":"69",
@@ -618,8 +618,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"10.740.820",
- "coordenaday ":"-74.940.417"
+ "coordenadax ":"11.537.384",
+ "coordenaday ":"-72.917.060"
 },
 { 
  "no ":"70",
@@ -627,8 +627,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"7.106.562",
- "coordenaday ":"-73.765.846"
+ "coordenadax ":"6.145.946",
+ "coordenaday ":"-75.375.429"
 },
 { 
  "no ":"71",
@@ -636,8 +636,8 @@ var jsonData=[
  "fecha ":"4 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.988.865",
- "coordenaday ":"-74.808.233"
+ "coordenadax ":"5.107.868",
+ "coordenaday ":"-75.982.958"
 },
 { 
  "no ":"72",
@@ -645,8 +645,8 @@ var jsonData=[
  "fecha ":"6 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"6.335.632",
- "coordenaday ":"-75.553.457"
+ "coordenadax ":"6.149.918",
+ "coordenaday ":"-75.616.863"
 },
 { 
  "no ":"73",
@@ -654,8 +654,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.651.706",
- "coordenaday ":"-74.094.083"
+ "coordenadax ":"8.830.242",
+ "coordenaday ":"-75.446.646"
 },
 { 
  "no ":"74",
@@ -663,8 +663,8 @@ var jsonData=[
  "fecha ":"24 y 25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"9.175.307",
- "coordenaday ":"-74.629.976"
+ "coordenadax ":"12.576.357",
+ "coordenaday ":"-79.303.789"
 },
 { 
  "no ":"75",
@@ -672,8 +672,8 @@ var jsonData=[
  "fecha ":"24 DE JULIO",
  "mes ":"JULIO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.603.707",
- "coordenaday ":"-73.177.345"
+ "coordenadax ":"11.158.977",
+ "coordenaday ":"-73.934.921"
 },
 { 
  "no ":"76",
@@ -681,8 +681,8 @@ var jsonData=[
  "fecha ":"8 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"7.165.358",
- "coordenaday ":"-73.110.994"
+ "coordenadax ":"6.815.745",
+ "coordenaday ":"-73.233.824"
 },
 { 
  "no ":"77",
@@ -690,8 +690,8 @@ var jsonData=[
  "fecha ":"29 DE SEPTIEMBRE",
  "mes ":" SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.921.854",
- "coordenaday ":"-76.970.704"
+ "coordenadax ":"9.320.156",
+ "coordenaday ":"-75.436.479"
 },
 { 
  "no ":"78",
@@ -699,8 +699,8 @@ var jsonData=[
  "fecha ":"-",
  "mes ":"-",
  "estado ":"POR DEFINIR",
- "coordenadax ":"3.899.271",
- "coordenaday ":"-76.298.704"
+ "coordenadax ":"4.581.560",
+ "coordenaday ":"-74.211.804"
 },
 { 
  "no ":"79",
@@ -708,8 +708,8 @@ var jsonData=[
  "fecha ":"10 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.323.986",
- "coordenaday ":"-75.416.268"
+ "coordenadax ":"5.717.724",
+ "coordenaday ":"-72.930.567"
 },
 { 
  "no ":"80",
@@ -717,8 +717,8 @@ var jsonData=[
  "fecha ":"25 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"3.450.924",
- "coordenaday ":"-76.522.576"
+ "coordenadax ":"10.915.492",
+ "coordenaday ":"-74.796.907"
 },
 { 
  "no ":"81",
@@ -726,8 +726,8 @@ var jsonData=[
  "fecha ":"1 DE SEPTIEMBRE",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"1",
- "coordenaday ":"-74.006.858"
+ "coordenadax ":"9.308.861",
+ "coordenaday ":"-75.235.223"
 },
 { 
  "no ":"82",
@@ -735,8 +735,8 @@ var jsonData=[
  "fecha ":"31 DE AGOSTO",
  "mes ":"SEPTIEMBRE",
  "estado ":"CONFIRMADA",
- "coordenadax ":"10.391.399",
- "coordenaday ":"-75.489.371"
+ "coordenadax ":"4.198.023",
+ "coordenaday ":"-75.181.930"
 },
 { 
  "no ":"83",
@@ -744,8 +744,8 @@ var jsonData=[
  "fecha ":"4 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"4.723.677",
- "coordenaday ":"-75.923.086"
+ "coordenadax ":"4.091.237",
+ "coordenaday ":"-76.195.938"
 },
 { 
  "no ":"84",
@@ -753,8 +753,8 @@ var jsonData=[
  "fecha ":"4 DE AGOSTO",
  "mes ":"AGOSTO",
  "estado ":"CONFIRMADA",
- "coordenadax ":"5.486.887",
- "coordenaday ":"-71.497.610"
+ "coordenadax ":"1.783.378",
+ "coordenaday ":"-78.789.646"
 },
 { 
  "no ":"85",
@@ -855,7 +855,6 @@ var jsonData=[
  "coordenadax ":"5.035.445",
  "coordenaday ":"-74.008.690"
 }
-
 
 ]
 
