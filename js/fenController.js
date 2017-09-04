@@ -19,7 +19,7 @@ var jsonData=[ {
 },
 {
 "no":"3",
-"etc":" Apartad�",
+"etc":" Apartad\u00F3",
 "fecha":"27 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -46,7 +46,7 @@ var jsonData=[ {
 },
 {
 "no":"6",
-"etc":" Atl�ntico",
+"etc":" Atl\u00E1ntico",
 "fecha":"23 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -82,7 +82,7 @@ var jsonData=[ {
 },
 {
 "no":"10",
-"etc":" Bogot� D.C.",
+"etc":" Bogot\u00E1 D.C.",
 "fecha":"4 Y 5  OCTUBRE",
 "mes":"OCTUBRE",
 "estado":"CONFIRMADA",
@@ -91,7 +91,7 @@ var jsonData=[ {
 },
 {
 "no":"11",
-"etc":" Bol�var",
+"etc":" Bol\u00EDvar",
 "fecha":"5 y 6 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -100,7 +100,7 @@ var jsonData=[ {
 },
 {
 "no":"12",
-"etc":" Boyac�",
+"etc":" Boyac\u00E1",
 "fecha":"7 Y 8 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -145,7 +145,7 @@ var jsonData=[ {
 },
 {
 "no":"17",
-"etc":" Caquet�",
+"etc":" Caquet\u00E1",
 "fecha":"25 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -199,7 +199,7 @@ var jsonData=[ {
 },
 {
 "no":"23",
-"etc":" Ch�a",
+"etc":" Ch\u00EDa",
 "fecha":"26 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -208,7 +208,7 @@ var jsonData=[ {
 },
 {
 "no":"24",
-"etc":" Choc�",
+"etc":" Choc\u00F3",
 "fecha":"7 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -217,7 +217,7 @@ var jsonData=[ {
 },
 {
 "no":"25",
-"etc":" Ci�naga",
+"etc":" Ci\u00E9naga",
 "fecha":"18 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -226,7 +226,7 @@ var jsonData=[ {
 },
 {
 "no":"26",
-"etc":" C�rdoba",
+"etc":" C\u00F3rdoba",
 "fecha":"5 SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -235,7 +235,7 @@ var jsonData=[ {
 },
 {
 "no":"27",
-"etc":" C�cuta",
+"etc":" C\u00FAcuta",
 "fecha":"18 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -280,7 +280,7 @@ var jsonData=[ {
 },
 {
 "no":"32",
-"etc":" Facatativ�",
+"etc":" Facatativ\u00E1",
 "fecha":"29 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -307,7 +307,7 @@ var jsonData=[ {
 },
 {
 "no":"35",
-"etc":" Fusagasug�",
+"etc":" Fusagasug\u00E1",
 "fecha":"28 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -325,7 +325,7 @@ var jsonData=[ {
 },
 {
 "no":"37",
-"etc":" Gir�n",
+"etc":" Gir\u00F3n",
 "fecha":"5 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -343,7 +343,7 @@ var jsonData=[ {
 },
 {
 "no":"39",
-"etc":" Guain�a",
+"etc":" Guain\u00EDa",
 "fecha":"1 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -370,7 +370,7 @@ var jsonData=[ {
 },
 {
 "no":"42",
-"etc":" Ibagu�",
+"etc":" Ibagu\u00E9",
 "fecha":"-",
 "mes":"APLAZADA PENDIENTE FECHA",
 "estado":"CONFIRMADA",
@@ -388,7 +388,7 @@ var jsonData=[ {
 },
 {
 "no":"44",
-"etc":" Itag��",
+"etc":" Itag\u00FC\u00ED",
 "fecha":"23 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -397,7 +397,7 @@ var jsonData=[ {
 },
 {
 "no":"45",
-"etc":" Jamund�",
+"etc":" Jamund\u00ED",
 "fecha":"CANCELADO FORO",
 "mes":"CANCELADO FORO",
 "estado":"CANCELADO FORO",
@@ -424,7 +424,7 @@ var jsonData=[ {
 },
 {
 "no":"48",
-"etc":" Magangu�",
+"etc":" Magangu\u00E9",
 "fecha":"31 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -469,7 +469,7 @@ var jsonData=[ {
 },
 {
 "no":"53",
-"etc":" Medell�n",
+"etc":" Medell\u00EDn",
 "fecha":"1 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -487,7 +487,7 @@ var jsonData=[ {
 },
 {
 "no":"55",
-"etc":" Monter�a",
+"etc":" Monter\u00EDa",
 "fecha":"29 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -505,7 +505,7 @@ var jsonData=[ {
 },
 {
 "no":"57",
-"etc":" Nari�o",
+"etc":" Nari\u00F1o",
 "fecha":"25 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -577,7 +577,7 @@ var jsonData=[ {
 },
 {
 "no":"65",
-"etc":" Popay�n",
+"etc":" Popay\u00E1n",
 "fecha":"10 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -595,7 +595,7 @@ var jsonData=[ {
 },
 {
 "no":"67",
-"etc":" Quibd�",
+"etc":" Quibd\u00F3",
 "fecha":"24 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -604,7 +604,7 @@ var jsonData=[ {
 },
 {
 "no":"68",
-"etc":" Quind�o",
+"etc":" Quind\u00EDo",
 "fecha":"27 DE JULIO",
 "mes":"JULIO",
 "estado":"CONFIRMADA",
@@ -649,7 +649,7 @@ var jsonData=[ {
 },
 {
 "no":"73",
-"etc":" Sahag�n",
+"etc":" Sahag\u00FAn",
 "fecha":"25 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -658,7 +658,7 @@ var jsonData=[ {
 },
 {
 "no":"74",
-"etc":"San Andr�s y Providencia",
+"etc":"San Andr\u00E9s y Providencia",
 "fecha":"24 y 25 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -739,7 +739,7 @@ var jsonData=[ {
 },
 {
 "no":"83",
-"etc":" Tulu�",
+"etc":" Tulu\u00E1",
 "fecha":"4 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -802,7 +802,7 @@ var jsonData=[ {
 },
 {
 "no":"90",
-"etc":" Vaup�s",
+"etc":" Vaup\u00E9s",
 "fecha":"6 DE SEPTIEMBRE",
 "mes":"SEPTIEMBRE",
 "estado":"CONFIRMADA",
@@ -847,7 +847,7 @@ var jsonData=[ {
 },
 {
 "no":"95",
-"etc":" Zipaquir�",
+"etc":" Zipaquir\u00E1",
 "fecha":"16 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -896,29 +896,29 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             },
             markers: markers,
             backgroundColor: '#F1EBE6',
-
+			//set regions colors
             series: {
                 regions: [{
                     values: {
-                        "CO-SAP": '#e1a809',//color amarillo
+                        "CO-SAP": '#e1a809',
                         "CO-LAG": '#e1a809',
                         "CO-MAG": '#e1a809',
                         "CO-ATL": '#e1a809',
-                        "CO-CES": '#0081c9', //color azul
+                        "CO-CES": '#0081c9',
                         "CO-BOL": '#ba2870',
                         "CO-SUC": '#e1a809',
                         "CO-COR": '#e1a809',
-                        "CO-ANT": '#ba2870', //color rosa
+                        "CO-ANT": '#ba2870',
                         "CO-SAN": '#ba2870',
                         "CO-NSA": '#ba2870',
                         "CO-CHO": '#e1a809',
-                        "CO-ARA": '#ef7a00', //color naranja
+                        "CO-ARA": '#ef7a00',
                         "CO-VID": '#ef7a00',
                         "CO-GUV": '#79ac2b',
                         "CO-CAS": '#79ac2b',
                         "CO-MET": '#ef7a00',
                         "CO-VAU": '#79ac2b',
-                        "CO-AMA": '#79ac2b', //color verde
+                        "CO-AMA": '#79ac2b',
                         "CO-CAL": '#ba2870',
                         "CO-TOL": '#ba2870',
                         "CO-BOY": '#e1a809', 
@@ -942,13 +942,11 @@ app.controller('jornadaUnicaController', function($scope, $http) {
             onMarkerClick: function(event, index) {
                 var content = "";
 
-                content = "<p class='title-modal'><span></span>" + markers[index].etc + "</p>";
+                content = "<h2 class='title-modal'><span></span>" + markers[index].etc + "</h2>";
 
                 content += "<table class='table-responsive' align='center' border='1'>";
 
                 content += "<tr>";
-                content += "<td>N\u00damero</td>";
-                content += "<td>" + markers[index].numero + "</td>";
                 content += "<td>Lugar</td>";
                 content += "<td>" + markers[index].etc + "</td>";
                 content += "</tr>";
@@ -956,12 +954,10 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 content += "<tr>";
                 content += "<td>Fecha</td>";
                 content += "<td>" + markers[index].fecha + "</td>";
-                content += "<td> Mes </td>";
-                content += "<td>" + markers[index].mes + "</td>";
                 content += "</tr>";
 
                 content += "<tr>";
-                content += "<td colspan=\"2\" >Estado de confirmaci\u00d3n</td>";
+                content += "<td>Estado de confirmaci\u00d3n</td>";
                 content += "<td>" + markers[index].estado + "</td>";
                 content += "</tr>";
 
