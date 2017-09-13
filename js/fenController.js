@@ -872,8 +872,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
         angular.forEach(obj.content, function(entities) {
             markers.push({
                 "latLng": [parseFloat(entities.coordenadax), parseFloat(entities.coordenaday)],
-                "numero": entities.no,
-                "etc": entities.etc,
+                "name": entities.etc,
+				"etc": entities.etc,
+				"numero": entities.no,
                 "fecha": entities.fecha,
                 "mes": entities.mes,
                 "estado": entities.estado,
