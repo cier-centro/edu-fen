@@ -1109,13 +1109,24 @@ h1.logo {
 .site-fen .panel-default > .panel-heading {
   padding: 0px !important; }
   .site-fen .panel-default > .panel-heading > a {
-    padding: 10px 15px;
+    padding: 15px;
     display: block;
     text-align: initial;
     text-decoration: none;
-    border-radius: 8px 8px 5px 5px; }
+    border-radius: 8px 8px 5px 5px;
+    position: relative; }
+    .site-fen .panel-default > .panel-heading > a:after {
+      content: "";
+      height: 47px;
+      width: 47px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url(http://52.37.84.217/edu-fen/img/img-spritesheet.png); }
     .site-fen .panel-default > .panel-heading > a[aria-expanded="true"] {
       background-color: #1A254E !important; }
+      .site-fen .panel-default > .panel-heading > a[aria-expanded="true"]:after {
+        background-position: -53px -169px !important; }
       .site-fen .panel-default > .panel-heading > a[aria-expanded="true"] h4 {
         font-weight: 700; }
     .site-fen .panel-default > .panel-heading > a > h4 {
@@ -1124,8 +1135,12 @@ h1.logo {
       font-weight: 500; }
 .site-fen .panel-default:nth-child(odd) > .panel-heading > a {
   background-color: #6EA7D5; }
+  .site-fen .panel-default:nth-child(odd) > .panel-heading > a:after {
+    background-position: -6px -169px; }
 .site-fen .panel-default:nth-child(even) > .panel-heading > a {
   background-color: #4470b3; }
+  .site-fen .panel-default:nth-child(even) > .panel-heading > a:after {
+    background-position: -6px -169px; }
 .site-fen .panel-default .panel-collapse {
   margin: -3px 0; }
   .site-fen .panel-default .panel-collapse .panel-body {

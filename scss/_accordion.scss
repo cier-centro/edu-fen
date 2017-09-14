@@ -8,14 +8,29 @@
             padding: 0px !important;
 
             & > a {
-                padding: 10px 15px;
+                padding: 15px;
                 display: block;
                 text-align: initial;
                 text-decoration: none;
                 border-radius: 8px 8px 5px 5px;
+                position: relative;
+
+                &:after {
+                  content: "";
+                  height: 47px;
+                  width: 47px;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  background: url(http://52.37.84.217/edu-fen/img/img-spritesheet.png);
+                 }
 
                 &[aria-expanded="true"] {
                     background-color: $accordion-selected-bg !important;
+
+                    &:after {
+                      background-position: -53px -169px !important;
+                     }
 
                     h4 {
                         font-weight: 700;
@@ -28,11 +43,20 @@
                 }
             }
        }
+
        &:nth-child(odd) > .panel-heading > a {
             background-color: $accordion-odd-bg;
+
+            &:after {
+              background-position: -6px -169px;
+            }
        }
        &:nth-child(even) > .panel-heading > a {
             background-color: $accordion-even-bg;
+
+            &:after {
+              background-position: -6px -169px;
+            }
        }
        .panel-collapse {
           margin: -3px 0;
