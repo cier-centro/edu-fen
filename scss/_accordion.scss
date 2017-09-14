@@ -8,7 +8,7 @@
             padding: 0px !important;
 
             & > a {
-                padding: 15px;
+                padding: 15px 45px 15px 15px;
                 display: block;
                 text-align: initial;
                 text-decoration: none;
@@ -22,9 +22,26 @@
                   position: absolute;
                   top: 0;
                   right: 0;
-                  background: url(http://52.37.84.217/edu-fen/img/img-spritesheet.png);
-                 }
-
+                  background: url("#{$images-path}img-spritesheet.png");
+                }
+                &:before {
+                    content: "Click para abrir/cerrar";
+                    position: absolute;
+                    background: $accordion-selected-bg;
+                    color: $accordion-odd-bg;
+                    border: 1px solid rgba(white, 0.5);
+                    padding: 1px 5px;
+                    right: 0;
+                    top: 100%;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: visibility 0s, opacity 0.25s linear;
+                    z-index: 5000;
+                }
+                &:hover:before {
+                    visibility: visible;
+                    opacity: 1;
+                }
                 &[aria-expanded="true"] {
                     background-color: $accordion-selected-bg !important;
 
