@@ -20,7 +20,7 @@
                   height: 47px;
                   width: 47px;
                   position: absolute;
-                  top: 0;
+                  top: calc(50% - 23px);;
                   right: 0;
                   background: url("#{$images-path}img-spritesheet.png");
                 }
