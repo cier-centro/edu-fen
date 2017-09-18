@@ -573,7 +573,33 @@ h1.logo {
   color: #666666 !important;
   text-align: justify; }
 .site-fen .general-content {
-  min-height: 200px; }
+  min-height: 315px; }
+  .site-fen .general-content form {
+    margin-top: 25px;
+    background-color: #EFEFF1;
+    padding: 15px;
+    border-radius: 10px; }
+    .site-fen .general-content form label {
+      display: block;
+      margin-top: 10px;
+      font-size: 15px; }
+    .site-fen .general-content form .form-text, .site-fen .general-content form textarea {
+      width: 100%;
+      padding: 5px; }
+    .site-fen .general-content form .form-text {
+      margin-bottom: 5px; }
+    .site-fen .general-content form .button-primary {
+      background: #1A254E;
+      color: white;
+      font-weight: 600;
+      border: none;
+      white-space: normal;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px; }
+      .site-fen .general-content form .button-primary:hover {
+        background: #6EA7D5 !important; }
 .site-fen .home-content .view-content ul > li, .site-fen .general-content .view-content ul > li {
   list-style: disc !important; }
 .site-fen .home-content .view-content ol > li, .site-fen .general-content .view-content ol > li {
