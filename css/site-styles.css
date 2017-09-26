@@ -570,7 +570,7 @@ h1.logo {
   height: 40px; }
 .site-fen .section_content p {
   margin-top: 10px !important;
-  color: #666666 !important;
+  color: #333 !important;
   text-align: justify; }
 .site-fen .general-content {
   min-height: 315px; }
