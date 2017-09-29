@@ -59,18 +59,15 @@
      }
      .enlistment-modals {
           & > button {
-              height: 120px;
-              width: 120px;
-              border-radius: 50%;
               color: transparent;
-              margin: 20px calc(17% - 65px);
               background: transparent no-repeat center / contain;
+              display: block;
+              margin: auto;
 
               &:hover {
                 background-color: white !important;
                 background-size: contain !important;
                 color: transparent !important;
-                border: 2px solid $accordion-odd-bg;
               }
           }
           button:nth-child(1) {
