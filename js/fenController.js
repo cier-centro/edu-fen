@@ -1055,8 +1055,8 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 content += "</tr>";
                 content += "<tr>";
                 content += "<td>Estado de confirmaci\u00d3n</td>";
-				//content += "<td> <a href=\"fen2017/"+markers[index].lin "\">" + markers[index].estado + "</a></td>";
-                content += "<td>" + markers[index].estado + "</td>";
+				content += "<td> <a href=\"fen2017/"+markers[index].lin+"\">" + markers[index].estado + "</a></td>";
+                //content += "<td><a>"++"</a>" + markers[index].estado + "</td>";
                 content += "</tr>";
 
                 content += "</table>";
