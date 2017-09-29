@@ -574,6 +574,20 @@ h1.logo {
   text-align: justify; }
 .site-fen .general-content {
   min-height: 315px; }
+  .site-fen .general-content .eslistment-title {
+    background: #405995;
+    color: white !important;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+    line-height: 100%; }
+    .site-fen .general-content .eslistment-title b {
+      color: white;
+      display: block;
+      font-size: 33px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      line-height: 100%; }
   .site-fen .general-content form {
     margin-top: 25px;
     background-color: #EFEFF1;
@@ -967,6 +981,8 @@ h1.logo {
       background-color: transparent !important;
       background-size: contain !important;
       color: transparent !important; }
+    .site-fen .enlistment-modals > button:focus {
+      outline: none !important; }
   .site-fen .enlistment-modals button:nth-child(1) {
     background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton1.png") !important; }
   .site-fen .enlistment-modals button:nth-child(3) {

@@ -37,6 +37,23 @@
      .general-content {
          min-height: 315px;
 
+         .eslistment-title {
+            background: #405995;
+            color: white !important;
+            font-size: 18px;
+            padding: 25px;
+            text-align: center;
+            line-height: 100%;
+
+            b {
+                color: white;
+                display: block;
+                font-size: 33px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                line-height: 100%;
+            }
+         }
          form {
            margin-top: 25px;
            background-color: $form-bg;
@@ -70,7 +87,7 @@
                   background: $accordion-odd-bg !important;
               }
            }
-        }
+         }
       }
      .home-content, .general-content {
         .view-content {

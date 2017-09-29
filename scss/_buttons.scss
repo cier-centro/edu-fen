@@ -73,6 +73,10 @@
                 background-size: contain !important;
                 color: transparent !important;
               }
+
+              &:focus {
+                outline: none !important;
+              }
           }
           button:nth-child(1) {
               background-image: url("#{$images-path}img_modalbutton1.png") !important;
