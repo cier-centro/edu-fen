@@ -973,6 +973,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 "fecha": entities.fecha,
                 "mes": entities.mes,
                 "estado": entities.estado,
+				"lin": entities.lin,
             });
        });
 
