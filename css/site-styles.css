@@ -994,9 +994,9 @@ h1.logo {
 @media (min-width: 1025px) {
   .site-fen .enlistment-modals {
     padding-top: 115px; } }
-@media (min-width: 992px) {
+@media (max-width: 991px) {
   .site-fen .enlistment-modals {
-    padding-top: 118vw; } }
+    height: 118vw; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-fen .enlistment-modals {
     padding-top: 11vw; }
