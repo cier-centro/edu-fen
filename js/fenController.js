@@ -961,7 +961,6 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 content += "<td>Estado de confirmaci\u00d3n</td>";
                 content += "<td>" + markers[index].estado + "</td>";
                 content += "</tr>";
-
                 content += "</table>";
 
                 $('#myModal').modal('show').find('.modal-body').html(content);
