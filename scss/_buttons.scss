@@ -58,14 +58,21 @@
           }
      }
      .enlistment-modals {
+          background: url(http://52.37.84.217/edu-fen/img/img_enlistment_bg.png) no-repeat 50% 0 / 100%, url(http://52.37.84.217/edu-fen/img/img_enlistment_pattern_bg.jpg);
+          height: 982px;
+          margin-bottom: 15px;
+          padding-top: 115px;
+
           & > button {
               color: transparent;
-              background: transparent no-repeat center / contain;
+              background: transparent no-repeat center 0 / auto 100%;
               display: block;
-              margin: auto;
+              margin: 0 0 3px 282px;
+              width: 33%;
+              height: 112px;
+              padding: 0 !important;
 
               &:hover {
-                background-color: white !important;
                 background-size: contain !important;
                 color: transparent !important;
               }
