@@ -1362,10 +1362,10 @@ h1.logo {
     height: 40px;
     top: calc(50% - 20px); }
   .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev {
-    background-position: -3px -54px;
+    background-position: -11px -221px;
     left: 13px; }
   .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
-    background-position: -58px -54px;
+    background-position: -66px -221px;
     right: 13px; }
 .site-fen .images-carousel .jcarousel-clip-horizontal {
   width: 100%; }
