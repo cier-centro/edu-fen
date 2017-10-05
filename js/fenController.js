@@ -1055,8 +1055,11 @@ app.controller('jornadaUnicaController', function($scope, $http) {
 
                 content += "<tr>";
                 content += "<td>Estado de confirmaci\u00d3n</td>";
-				content += "<td> <a href='" + markers[index].lin + "'>" + markers[index].estado + "</a></td>";
-                //content += "<td>" + markers[index].estado + "</td>";
+				if(markers[index].lin==""){
+					content += "<td> <a href='" + markers[index].lin + "'> Ver Galería </a></td>";
+				}else{
+                 content += "<td>" + markers[index].estado + "</td>";
+				}
                 content += "</tr>";
                 content += "</table>";
 
