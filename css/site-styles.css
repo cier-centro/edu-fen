@@ -1355,19 +1355,18 @@ h1.logo {
 .site-fen .images-carousel .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
-  padding: 20px 60px;
-  /*.jcarousel-prev {
-      background-position: -3px -54px;
-      left: 13px;
-  }
-  .jcarousel-next {
-      background-position: -58px -54px;
-      right: 13px;
-  }*/ }
+  padding: 20px 60px; }
   .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev, .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
+    background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
     width: 40px;
     height: 40px;
     top: calc(50% - 20px); }
+  .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev {
+    background-position: -3px -54px;
+    left: 13px; }
+  .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
+    background-position: -58px -54px;
+    right: 13px; }
 .site-fen .images-carousel .jcarousel-clip-horizontal {
   width: 100%; }
 .site-fen .images-carousel .jcarousel-item {
@@ -1376,7 +1375,7 @@ h1.logo {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .site-fen .images-carousel .jcarousel-item .views-field-field-imagenes-de-la-jornada img {
+  .site-fen .images-carousel .jcarousel-item .views-field-field-imagenes img {
     height: 12.5vw;
     max-width: 100vw;
     width: auto; }
