@@ -1055,7 +1055,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
 
                 content += "<tr>";
                 content += "<td>Estado de confirmaci\u00d3n</td>";
-				if(markers[index].lin==""){
+				if(markers[index].lin=="-"){
 					content += "<td> <a href='" + markers[index].lin + "'> Ver Galería </a></td>";
 				}else{
                  content += "<td>" + markers[index].estado + "</td>";
