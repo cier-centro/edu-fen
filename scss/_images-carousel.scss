@@ -4,6 +4,8 @@
 */
 .#{$site-name} {
     .images-carousel {
+        min-height: 315px;
+        
         ul.jcarousel{
 
           padding: 0 !important;

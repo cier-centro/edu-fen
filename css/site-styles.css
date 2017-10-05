@@ -1350,34 +1350,36 @@ h1.logo {
 *Images Carousel styles
 * --------------------------------------------------
 */
-.site-fen .images-carousel ul.jcarousel {
-  padding: 0 !important; }
-.site-fen .images-carousel .jcarousel-container-horizontal {
-  width: 100%;
-  height: auto;
-  padding: 20px 60px; }
-  .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev, .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
-    background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
-    width: 40px;
-    height: 40px;
-    top: calc(50% - 20px); }
-  .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev {
-    background-position: -11px -221px;
-    left: 13px; }
-  .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
-    background-position: -66px -221px;
-    right: 13px; }
-.site-fen .images-carousel .jcarousel-clip-horizontal {
-  width: 100%; }
-.site-fen .images-carousel .jcarousel-item {
-  width: 12.5vw;
-  height: 12.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .site-fen .images-carousel .jcarousel-item .views-field-field-imagenes img {
+.site-fen .images-carousel {
+  min-height: 315px; }
+  .site-fen .images-carousel ul.jcarousel {
+    padding: 0 !important; }
+  .site-fen .images-carousel .jcarousel-container-horizontal {
+    width: 100%;
+    height: auto;
+    padding: 20px 60px; }
+    .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev, .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
+      background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
+      width: 40px;
+      height: 40px;
+      top: calc(50% - 20px); }
+    .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev {
+      background-position: -11px -221px;
+      left: 13px; }
+    .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
+      background-position: -66px -221px;
+      right: 13px; }
+  .site-fen .images-carousel .jcarousel-clip-horizontal {
+    width: 100%; }
+  .site-fen .images-carousel .jcarousel-item {
+    width: 12.5vw;
     height: 12.5vw;
-    max-width: 100vw;
-    width: auto; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .site-fen .images-carousel .jcarousel-item .views-field-field-imagenes img {
+      height: 12.5vw;
+      max-width: 100vw;
+      width: auto; }
 
 /*# sourceMappingURL=site-styles.css.map */
