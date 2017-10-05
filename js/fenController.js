@@ -1,6 +1,5 @@
 var app = "";
-var jsonData=[
-{
+var jsonData=[{
 "no":"1",
 "etc":" Amazonas",
 "fecha":"11 DE AGOSTO",
@@ -950,6 +949,7 @@ var jsonData=[
 "coordenaday":"-74.008.690",
 "link":"-"
 }
+
 ]
 
 
