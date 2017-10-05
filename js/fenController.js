@@ -1036,6 +1036,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                     },
                  }],
              },
+			 
 
             onMarkerClick: function(event, index) {
                 var content = "";
