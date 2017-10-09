@@ -1061,7 +1061,9 @@ app.controller('jornadaUnicaController', function($scope, $http) {
 				if(markers[index].lin!="-"){
 					content += "<td> <a href='" + markers[index].lin + "'> Ver Galería </a></td>";
 				}else{
-                 content += "<td>" + markers[index].estado + "</td>";
+					if(markers[index].estado!="CONFIRMADA"){
+						content += "<td>" + markers[index].estado + "</td>";
+					}
 				}
                 content += "</tr>";
                 content += "</table>";
