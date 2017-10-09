@@ -562,7 +562,7 @@ var jsonData=[
 },
 {
 "no":"57",
-"etc":" Nari�o",
+"etc":" Nari\u00F1o",
 "fecha":"25 DE AGOSTO",
 "mes":"AGOSTO",
 "estado":"CONFIRMADA",
@@ -1057,11 +1057,13 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 content += "</tr>";
 
                 content += "<tr>";
-                content += "<td>Estado de confirmaci\u00d3n</td>";
+                
 				if(markers[index].lin!="-"){
+					content += "<td>Estado de confirmaci\u00F3</td>";
 					content += "<td> <a href='" + markers[index].lin + "'> Ver Galería </a></td>";
 				}else{
 					if(markers[index].estado!="CONFIRMADA"){
+						content += "<td>Estado de confirmaci\u00F3</td>";
 						content += "<td>" + markers[index].estado + "</td>";
 					}
 				}
