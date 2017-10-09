@@ -643,7 +643,21 @@ h1.logo {
   padding: 0 0 35%;
   overflow: hidden; }
 .site-fen .orientations-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage1.JPG") no-repeat center 35%/cover; }
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage1.JPG") no-repeat center 70%/cover; }
+.site-fen .main-themes-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage2.JPG") no-repeat center 35%/cover; }
+.site-fen .methodology-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage3.JPG") no-repeat center 35%/cover; }
+.site-fen .evaluation-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage4.JPG") no-repeat center 35%/cover; }
+.site-fen .experiencies-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage5.JPG") no-repeat center 65%/cover; }
+.site-fen .central-forum-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage6.JPG") no-repeat center 35%/cover; }
+.site-fen .lecturer-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage7.JPG") no-repeat center 60%/cover; }
+.site-fen .interest-downloads-image {
+  background: url("http://52.37.84.217/edu-fen/img/img_innerimage8.JPG") no-repeat center 35%/cover; }
 @media (min-width: 1100px) {
   .site-fen .main_container .section_content {
     width: 1024px !important; } }
