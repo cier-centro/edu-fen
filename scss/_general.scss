@@ -134,6 +134,13 @@
             }
         }
      }
+     .experiences-graphic {
+        overflow-x: auto;
+
+        img {
+            max-width: none !important;
+        }
+     }
      .inner-image {
         margin: 0 0 20px;
         position: relative;

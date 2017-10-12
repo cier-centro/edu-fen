@@ -635,6 +635,10 @@ h1.logo {
     display: block; }
   .site-fen .media .media-body .media-heading {
     margin-top: 0 !important; }
+.site-fen .experiences-graphic {
+  overflow-x: auto; }
+  .site-fen .experiences-graphic img {
+    max-width: none !important; }
 .site-fen .inner-image {
   margin: 0 0 20px;
   position: relative;
