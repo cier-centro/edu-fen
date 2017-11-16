@@ -623,7 +623,7 @@ h1.logo {
 .site-fen .home-content .view-content li, .site-fen .general-content .view-content li {
   margin-top: 5px !important; }
 .site-fen .home-content .view-content .home-image, .site-fen .general-content .view-content .home-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_home.jpg") no-repeat center/contain;
+  background: url("../img/img_home.jpg") no-repeat center/contain;
   min-height: 150px; }
 .site-fen .registration-content .row > * {
   text-align: center;
@@ -647,21 +647,21 @@ h1.logo {
   padding: 0 0 35%;
   overflow: hidden; }
 .site-fen .orientations-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage1.JPG") no-repeat center 70%/cover; }
+  background: url("../img/img_innerimage1.JPG") no-repeat center 70%/cover; }
 .site-fen .main-themes-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage2.JPG") no-repeat center 35%/cover; }
+  background: url("../img/img_innerimage2.JPG") no-repeat center 35%/cover; }
 .site-fen .methodology-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage3.JPG") no-repeat center 35%/cover; }
+  background: url("../img/img_innerimage3.JPG") no-repeat center 35%/cover; }
 .site-fen .evaluation-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage4.JPG") no-repeat center 35%/cover; }
+  background: url("../img/img_innerimage4.JPG") no-repeat center 35%/cover; }
 .site-fen .experiencies-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage5.JPG") no-repeat center 65%/cover; }
+  background: url("../img/img_innerimage5.JPG") no-repeat center 65%/cover; }
 .site-fen .central-forum-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage6.JPG") no-repeat center 35%/cover; }
+  background: url("../img/img_innerimage6.JPG") no-repeat center 35%/cover; }
 .site-fen .lecturer-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage7.JPG") no-repeat center 60%/cover; }
+  background: url("../img/img_innerimage7.JPG") no-repeat center 60%/cover; }
 .site-fen .interest-downloads-image {
-  background: url("http://52.37.84.217/edu-fen/img/img_innerimage8.JPG") no-repeat center 35%/cover; }
+  background: url("../img/img_innerimage8.JPG") no-repeat center 35%/cover; }
 @media (min-width: 1100px) {
   .site-fen .main_container .section_content {
     width: 1024px !important; } }
@@ -801,13 +801,13 @@ h1.logo {
     .site-fen #fen_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -59px -1px; }
+      background: url("../img/img-spritesheet.png") no-repeat -59px -1px; }
       .site-fen #fen_home_slider .views_slideshow_controls_text_next a:hover {
         background-position: -59px -55px !important; }
   .site-fen #fen_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -6px -1px; }
+    background: url("../img/img-spritesheet.png") no-repeat -6px -1px; }
     .site-fen #fen_home_slider .views-slideshow-controls-text-previous a:hover {
       background-position: -6px -55px !important; }
   .site-fen #fen_home_slider .views_slideshow_slide, .site-fen #fen_home_slider .views_slideshow_slide img {
@@ -851,13 +851,13 @@ h1.logo {
         color: #5b5b5b !important;
         border: 2px solid #5b5b5b !important; }
         .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info:hover span {
-          background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -105px -200px !important; }
+          background: url("../img/img-spritesheet.png") no-repeat -105px -200px !important; }
       .site-fen #fen_home_slider .views_slideshow_slide > div .btn-info span {
         height: 27px;
         width: 27px;
         margin-left: 15px;
         float: right;
-        background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat -174px -25px; }
+        background: url("../img/img-spritesheet.png") no-repeat -174px -25px; }
   .site-fen #fen_home_slider .views-more-link {
     color: #EBA95E;
     padding: 4px 25px;
@@ -981,7 +981,7 @@ h1.logo {
   padding: 10px 16px 10px 50px;
   position: relative; }
   .site-fen .icon-button span {
-    background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
+    background: url("../img/img-spritesheet.png") no-repeat;
     height: 45px;
     width: 45px;
     position: absolute;
@@ -996,7 +996,7 @@ h1.logo {
 .site-fen .table button {
   white-space: normal; }
 .site-fen .enlistment-modals {
-  background: url("http://52.37.84.217/edu-fen/img/img_enlistment_bg.png") no-repeat 50% 0/100%, url("http://52.37.84.217/edu-fen/img/img_enlistment_pattern_bg.jpg");
+  background: url("../img/img_enlistment_bg.png") no-repeat 50% 0/100%, url("../img/img_enlistment_pattern_bg.jpg");
   height: 982px;
   margin-bottom: 15px; }
   .site-fen .enlistment-modals > button {
@@ -1011,19 +1011,19 @@ h1.logo {
     .site-fen .enlistment-modals > button:focus {
       outline: none !important; }
   .site-fen .enlistment-modals button:nth-child(1) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton1.png") !important; }
+    background-image: url("../img/img_modalbutton1.png") !important; }
   .site-fen .enlistment-modals button:nth-child(3) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton2.png") !important; }
+    background-image: url("../img/img_modalbutton2.png") !important; }
   .site-fen .enlistment-modals button:nth-child(5) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton3.png") !important; }
+    background-image: url("../img/img_modalbutton3.png") !important; }
   .site-fen .enlistment-modals button:nth-child(7) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton4.png") !important; }
+    background-image: url("../img/img_modalbutton4.png") !important; }
   .site-fen .enlistment-modals button:nth-child(9) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton5.png") !important; }
+    background-image: url("../img/img_modalbutton5.png") !important; }
   .site-fen .enlistment-modals button:nth-child(11) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton6.png") !important; }
+    background-image: url("../img/img_modalbutton6.png") !important; }
   .site-fen .enlistment-modals button:nth-child(13) {
-    background-image: url("http://52.37.84.217/edu-fen/img/img_modalbutton7.png") !important; }
+    background-image: url("../img/img_modalbutton7.png") !important; }
 @media (min-width: 1100px) {
   .site-fen .enlistment-modals > button {
     margin: 0 0 10px 291px;
@@ -1139,11 +1139,11 @@ h1.logo {
   height: 50px; }
 .site-fen .modal .modal-footer .bienestar-laboral-logo {
   float: left;
-  background: url("http://52.37.84.217/edu-fen/img/logo-bienestarlaboral.png") no-repeat center/contain; }
+  background: url("../img/logo-bienestarlaboral.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .new-country-logo {
-  background: url("http://52.37.84.217/edu-fen/img/logo-nuevopais.png") no-repeat center/contain; }
+  background: url("../img/logo-nuevopais.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .mineducacion-logo {
-  background: url("http://52.37.84.217/edu-fen/img/logo-mineducacion.png") no-repeat center/contain; }
+  background: url("../img/logo-mineducacion.png") no-repeat center/contain; }
 .site-fen .modal .modal-footer .new-country-logo, .site-fen .modal .modal-footer .mineducacion-logo {
   float: right; }
 @media (max-width: 767px) {
@@ -1223,7 +1223,7 @@ h1.logo {
       position: absolute;
       top: calc(50% - 23px);
       right: 0;
-      background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png"); }
+      background: url("../img/img-spritesheet.png"); }
     .site-fen .panel-default > .panel-heading > a:before {
       content: "Click para abrir/cerrar";
       position: absolute;
@@ -1324,7 +1324,7 @@ h1.logo {
           text-decoration: none !important; }
         .site-fen .main-lateral-panel .pane-content ul > li > a:after {
           content: "";
-          background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png");
+          background: url("../img/img-spritesheet.png");
           height: 50px;
           width: 40px;
           position: absolute;
@@ -1355,7 +1355,7 @@ h1.logo {
   color: #DE3A73;
   width: 40px; }
 .site-fen .content .pager .pager-first a, .site-fen .content .pager .pager-previous a, .site-fen .content .pager .pager-next a, .site-fen .content .pager .pager-last a {
-  background: url("http://52.37.84.217/edu-fen/img/img-pager-spritesheet.png"); }
+  background: url("../img/img-pager-spritesheet.png"); }
 .site-fen .content .pager .pager-first a {
   background-position: 3px -20px; }
 .site-fen .content .pager .pager-previous a {
@@ -1386,7 +1386,7 @@ h1.logo {
     height: auto;
     padding: 20px 60px; }
     .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-prev, .site-fen .images-carousel .jcarousel-container-horizontal .jcarousel-next {
-      background: url("http://52.37.84.217/edu-fen/img/img-spritesheet.png") no-repeat;
+      background: url("../img/img-spritesheet.png") no-repeat;
       width: 40px;
       height: 40px;
       top: calc(50% - 20px); }

@@ -962,9 +962,7 @@ var app = angular.module("jornadaUnicaApp", []);
 
 app.controller('jornadaUnicaController', function($scope, $http) {
     $scope.entities = [];
-    var obj = {content: null};
-    //$http.get('http://52.37.84.217/edu-unica/service/Resources/Base-jornada-unica.json').success(function(data) {
-        //obj.content = data;
+    var obj = {content: null};    
         obj.content = jsonData;
         angular.forEach(obj.content, function(entities) {
             markers.push({
@@ -1020,7 +1018,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                         "CO-AMA": '#79ac2b',
                         "CO-CAL": '#ba2870',
                         "CO-TOL": '#ba2870',
-                        "CO-BOY": '#e1a809', 
+                        "CO-BOY": '#e1a809',
                         "CO-VAC": '#0081c9',
                         "CO-DC": '#ba2870',
                         "CO-PUT": '#79ac2b',
@@ -1037,7 +1035,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                     },
                  }],
              },
-			 
+
 
             onMarkerClick: function(event, index) {
                 var content = "";
@@ -1057,7 +1055,7 @@ app.controller('jornadaUnicaController', function($scope, $http) {
                 content += "</tr>";
 
                 content += "<tr>";
-                
+
 				if(markers[index].lin!="-"){
 					content += "<td>Estado de confirmaci\u00F3</td>";
 					content += "<td> <a href='" + markers[index].lin + "'> Ver Galería </a></td>";
